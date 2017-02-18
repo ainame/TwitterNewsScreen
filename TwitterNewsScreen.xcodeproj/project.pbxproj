@@ -14,6 +14,7 @@
 		BD1B54F91E57E38000283569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */; };
 		BD1B55041E57E38000283569 /* TwitterNewsScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B55031E57E38000283569 /* TwitterNewsScreenTests.swift */; };
 		BD1B550F1E57E38000283569 /* TwitterNewsScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */; };
+		BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B55201E57E6AA00283569 /* TwitterClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BD1B550A1E57E38000283569 /* TwitterNewsScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterNewsScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterNewsScreenUITests.swift; sourceTree = "<group>"; };
 		BD1B55101E57E38000283569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1B55201E57E6AA00283569 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BD1B54ED1E57E38000283569 /* TwitterNewsScreen */ = {
 			isa = PBXGroup;
 			children = (
+				BD1B551F1E57E69600283569 /* Twitter */,
 				BD1B54EE1E57E38000283569 /* AppDelegate.swift */,
 				BD1B54F51E57E38000283569 /* Assets.xcassets */,
 				BD1B54FA1E57E38000283569 /* Info.plist */,
@@ -123,6 +126,15 @@
 				BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */,
 			);
 			path = TwitterNewsScreenUITests;
+			sourceTree = "<group>";
+		};
+		BD1B551F1E57E69600283569 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				BD1B55201E57E6AA00283569 /* TwitterClient.swift */,
+			);
+			name = Twitter;
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1B54F11E57E38000283569 /* ViewController.swift in Sources */,
+				BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */,
 				BD1B54EF1E57E38000283569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +529,7 @@
 				BD1B55151E57E38000283569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD1B55161E57E38000283569 /* Build configuration list for PBXNativeTarget "TwitterNewsScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +538,7 @@
 				BD1B55181E57E38000283569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD1B55191E57E38000283569 /* Build configuration list for PBXNativeTarget "TwitterNewsScreenUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +547,7 @@
 				BD1B551B1E57E38000283569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
