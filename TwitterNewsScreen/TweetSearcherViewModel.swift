@@ -22,7 +22,7 @@ struct TweetSearcherViewModel {
     init() {
     }
 
-    func search(for queryString: String) -> Observable<[TwitterStatus]> {
+    func search(for queryString: String) -> Observable<[Tweet]> {
         return makeClient()
             .do(onSubscribe: { self.networkingState.value = .connecting },
                 onDispose: { self.networkingState.value = .none })

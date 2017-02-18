@@ -1,5 +1,5 @@
 //
-//  TwitterStatus.swift
+//  Tweet.swift
 //  TwitterNewsScreen
 //
 //  Created by Namai Satoshi on 2017/02/18.
@@ -9,14 +9,14 @@
 import Foundation
 import Mapper
 
-struct TwitterStatus: Mappable {
+struct Tweet: Mappable {
     let id: Int
-    let user: TwitterUser
+    let user: User
     let text: String
     let retweetCount: Int
     let favoritesCount: Int
     let createdAt: Date
-    let media: [TwitterStatusMedia]?
+    let media: [TweetMedia]?
 
     init(map: Mapper) throws {
         try id = map.from("id")

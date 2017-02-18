@@ -1,5 +1,5 @@
 //
-//  TwitterUser.swift
+//  User.swift
 //  TwitterNewsScreen
 //
 //  Created by Namai Satoshi on 2017/02/18.
@@ -9,7 +9,7 @@
 import Foundation
 import Mapper
 
-struct TwitterUser: Mappable {
+struct User: Mappable {
     let id: Int
     let name: String
     let screenName: String

@@ -1,5 +1,5 @@
 //
-//  TwitterStatusMedia.swift
+//  TweetMedia.swift
 //  TwitterNewsScreen
 //
 //  Created by Namai Satoshi on 2017/02/18.
@@ -9,7 +9,7 @@
 import Foundation
 import Mapper
 
-struct TwitterStatusMedia: Mappable {
+struct TweetMedia: Mappable {
     enum `Type`: String {
         case photo
         case video

@@ -20,13 +20,13 @@ struct TwitterClient {
         swifter = Swifter(account: account)
     }
 
-    func search(for queryStrng: String) -> Observable<([TwitterStatus], TwitterSearchMetadata)> {
+    func search(for queryStrng: String) -> Observable<([Tweet], SearchMetadata)> {
         return Observable.create { observer in
             self.swifter.searchTweet(using: queryStrng, includeEntities: true, success: { json, searchMetadataJSON in
                 let array = TwitterClient.convertRecursive(json) as! NSArray
-                let statuses = TwitterStatus.from(array)!
+                let statuses = Tweet.from(array)!
                 let dictionary = TwitterClient.convertRecursive(searchMetadataJSON) as! NSDictionary
-                let searchMetadata = TwitterSearchMetadata.from(dictionary)!
+                let searchMetadata = SearchMetadata.from(dictionary)!
                 observer.onNext((statuses, searchMetadata))
             }, failure: { error in
                 observer.onError(error)
@@ -35,12 +35,12 @@ struct TwitterClient {
         }
     }
 
-    func timeline() -> Observable<[TwitterStatus]> {
+    func timeline() -> Observable<[Tweet]> {
         return Observable.create { observer in
             let userID: String = self.account.value(forKeyPath: "properties.user_id")! as! String
             self.swifter.getTimeline(for: userID, success: { json in
                 let array = TwitterClient.convertRecursive(json) as! NSArray
-                let statuses = TwitterStatus.from(array)
+                let statuses = Tweet.from(array)
                 observer.onNext(statuses!)
             }, failure: { error in
                 observer.onError(error)
@@ -50,19 +50,16 @@ struct TwitterClient {
     }
 
     // workaround to use mapper with swifter
-    static func convertRecursive(_ json: SwifteriOS.JSON) -> Any? {
+    static func convertRecursive(_ json: SwifteriOS.JSON) -> Any {
         switch json {
         case .array(let array):
             let newArray = array
                 .map { elem in TwitterClient.convertRecursive(elem) }
-                .filter { elem in elem != nil }
             return NSArray(array: newArray)
         case .object(let dictionary):
             let newDictionary = NSMutableDictionary()
             dictionary.forEach { key, value in
-                if let newValue = TwitterClient.convertRecursive(value) {
-                    newDictionary[key] = newValue
-                }
+                newDictionary[key] = TwitterClient.convertRecursive(value)
             }
             return newDictionary
         case .string(let string):

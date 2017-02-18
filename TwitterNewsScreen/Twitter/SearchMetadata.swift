@@ -1,5 +1,5 @@
 //
-//  TwitterSearchMetadata.swift
+//  SearchMetadata.swift
 //  TwitterNewsScreen
 //
 //  Created by Namai Satoshi on 2017/02/18.
@@ -9,7 +9,7 @@
 import Foundation
 import Mapper
 
-struct TwitterSearchMetadata: Mappable {
+struct SearchMetadata: Mappable {
     let maxId: Int
     let sinceId: Int
     let refreshURL: URL
