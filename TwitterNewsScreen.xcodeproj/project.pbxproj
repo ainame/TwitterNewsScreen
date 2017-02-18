@@ -20,6 +20,7 @@
 		BD1B55291E57E9D300283569 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55281E57E9D300283569 /* Social.framework */; };
 		BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B552C1E57EB4500283569 /* RxSwift.framework */; };
 		BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */; };
+		BD75B17B1E57F69A0064D8A6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BD1B55281E57E9D300283569 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BD1B552C1E57EB4500283569 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccountRequester.swift; sourceTree = "<group>"; };
+		BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD75B17B1E57F69A0064D8A6 /* RxCocoa.framework in Frameworks */,
 				BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */,
 				BD1B55291E57E9D300283569 /* Social.framework in Frameworks */,
 				BD1B55271E57E9CC00283569 /* Accounts.framework in Frameworks */,
@@ -155,6 +158,7 @@
 		BD1B55221E57E8A500283569 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */,
 				BD1B552C1E57EB4500283569 /* RxSwift.framework */,
 				BD1B55281E57E9D300283569 /* Social.framework */,
 				BD1B55261E57E9CC00283569 /* Accounts.framework */,
@@ -306,6 +310,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SwifteriOS.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 			);
 			outputPaths = (
 			);
