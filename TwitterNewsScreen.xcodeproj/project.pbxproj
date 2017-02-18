@@ -170,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD1B55131E57E38000283569 /* Build configuration list for PBXNativeTarget "TwitterNewsScreen" */;
 			buildPhases = (
+				BD1B55301E57EF9100283569 /* Run Script */,
 				BD1B54E71E57E38000283569 /* Sources */,
 				BD1B54E81E57E38000283569 /* Frameworks */,
 				BD1B54E91E57E38000283569 /* Resources */,
@@ -303,7 +304,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Swifter.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwifteriOS.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
 			outputPaths = (
@@ -311,6 +312,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/bin/carthage copy-frameworks";
+		};
+		BD1B55301E57EF9100283569 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nswiftlint autocorrect\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 

@@ -1,0 +1,8 @@
+included:
+  - TwitterNewsScreen
+  - TwitterNewsScreenTests
+  - TwitterNewsScreenUITests
+excluded:
+  - Carthage
+
+line_length: 150
