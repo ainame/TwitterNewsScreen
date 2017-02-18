@@ -15,6 +15,7 @@
 		BD1B55041E57E38000283569 /* TwitterNewsScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B55031E57E38000283569 /* TwitterNewsScreenTests.swift */; };
 		BD1B550F1E57E38000283569 /* TwitterNewsScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */; };
 		BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B55201E57E6AA00283569 /* TwitterClient.swift */; };
+		BD1B55241E57E8A500283569 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55231E57E8A500283569 /* SwifteriOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterNewsScreenUITests.swift; sourceTree = "<group>"; };
 		BD1B55101E57E38000283569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1B55201E57E6AA00283569 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		BD1B55231E57E8A500283569 /* SwifteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwifteriOS.framework; path = Carthage/Build/iOS/SwifteriOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1B55241E57E8A500283569 /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				BD1B54ED1E57E38000283569 /* TwitterNewsScreen */,
 				BD1B55021E57E38000283569 /* TwitterNewsScreenTests */,
 				BD1B550D1E57E38000283569 /* TwitterNewsScreenUITests */,
+				BD1B55221E57E8A500283569 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,8 +137,15 @@
 			children = (
 				BD1B55201E57E6AA00283569 /* TwitterClient.swift */,
 			);
-			name = Twitter;
 			path = Twitter;
+			sourceTree = "<group>";
+		};
+		BD1B55221E57E8A500283569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD1B55231E57E8A500283569 /* SwifteriOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				BD1B54E71E57E38000283569 /* Sources */,
 				BD1B54E81E57E38000283569 /* Frameworks */,
 				BD1B54E91E57E38000283569 /* Resources */,
+				BD1B55251E57E8AD00283569 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -268,6 +280,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD1B55251E57E8AD00283569 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Swifter.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD1B54E71E57E38000283569 /* Sources */ = {
@@ -431,6 +460,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PEWY8F7R64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TwitterNewsScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.TwitterNewsScreen;
@@ -444,6 +477,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PEWY8F7R64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TwitterNewsScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.TwitterNewsScreen;
