@@ -41,6 +41,7 @@ class TwitterAccountRequester {
                 }
 
                 observer.onNext(accounts!)
+                observer.onCompleted()
             }
             return Disposables.create()
         }

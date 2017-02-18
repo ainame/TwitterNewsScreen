@@ -11,12 +11,12 @@ import RxSwift
 import Accounts
 
 struct TweetSearcherViewModel {
-    enum NetworkState {
+    enum NetworkState: String {
         case none
         case connecting
     }
 
-    let networkingState = Variable<NetworkState>(.none)
+    let networkState = Variable<NetworkState>(.none)
     private let disposeBag = DisposeBag()
 
     init() {
@@ -24,9 +24,10 @@ struct TweetSearcherViewModel {
 
     func search(for queryString: String) -> Observable<[Tweet]> {
         return makeClient()
-            .do(onSubscribe: { self.networkingState.value = .connecting },
-                onDispose: { self.networkingState.value = .none })
             .flatMap { $0.search(for: queryString) }
+            .observeOn(MainScheduler.instance)
+            .do(onSubscribe: { self.networkState.value = .connecting },
+                onDispose: { self.networkState.value = .none })
             .map { (results, _) in results }
     }
 

@@ -28,6 +28,7 @@ struct TwitterClient {
                 let dictionary = TwitterClient.convertRecursive(searchMetadataJSON) as! NSDictionary
                 let searchMetadata = SearchMetadata.from(dictionary)!
                 observer.onNext((statuses, searchMetadata))
+                observer.onCompleted()
             }, failure: { error in
                 observer.onError(error)
             })
@@ -42,6 +43,7 @@ struct TwitterClient {
                 let array = TwitterClient.convertRecursive(json) as! NSArray
                 let statuses = Tweet.from(array)
                 observer.onNext(statuses!)
+                observer.onCompleted()
             }, failure: { error in
                 observer.onError(error)
             })
