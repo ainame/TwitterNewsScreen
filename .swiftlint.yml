@@ -4,5 +4,15 @@ included:
   - TwitterNewsScreenUITests
 excluded:
   - Carthage
-
+disabled_rules:
+  - force_cast
 line_length: 150
+variable_name:
+  excluded:
+    - id
+identifier_name:
+  min_length:
+    error: 4
+  excluded:
+    - id
+    - URL
