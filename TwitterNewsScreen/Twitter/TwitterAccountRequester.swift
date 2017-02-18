@@ -16,7 +16,7 @@ class TwitterAccountRequester {
         case NotGranted
         case NoAccount
     }
-    
+
     static func request () -> Observable<[ACAccount]> {
         return Observable.create { observer in
             let accountStore = ACAccountStore()
@@ -27,18 +27,19 @@ class TwitterAccountRequester {
                 if error != nil {
                     fatalError("got unknwon error \(error)")
                 }
-                
+
                 if granted != true {
                     observer.onError(Errors.NotGranted)
                     return
                 }
-                
+
+                // swiftlint:disable:next force_cast
                 let accounts = accountStore.accounts(with: twitterAccountType) as! [ACAccount]?
                 if accounts?.count == 0 {
                     observer.onError(Errors.NoAccount)
                     return
                 }
-                
+
                 observer.onNext(accounts!)
             }
             return Disposables.create()
