@@ -31,6 +31,12 @@ struct TweetSearcherViewModel {
             .map { (results, _) in results }
     }
 
+    func searchMedia(for queryString: String) -> Observable<[Tweet]> {
+        return search(for: queryString)
+            .map { tweets in tweets.filter { $0.media != nil } }
+            .filter { tweets in !tweets.isEmpty }
+    }
+
     private func makeClient() -> Observable<TwitterClient> {
         return TwitterAccountRequester.request().map { TwitterClient(account: $0.first!) }
     }

@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         authButton.rx.tap.asObservable()
-            .flatMapLatest { self.viewModel.search(for: "この世界の片隅に").catchErrorJustReturn([]) }
+            .flatMapLatest { self.viewModel.searchMedia(for: "この世界の片隅に").catchErrorJustReturn([]) }
             .subscribe(onNext: { tweets in
-                print(tweets.map { $0.text }.joined())
+                print(tweets.map { $0.media![0].URL.absoluteString })
             }, onError: { error in
                 print(error)
             })
