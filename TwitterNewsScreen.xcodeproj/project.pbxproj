@@ -77,10 +77,10 @@
 		BD1B54E21E57E37F00283569 = {
 			isa = PBXGroup;
 			children = (
+				BD1B54EC1E57E38000283569 /* Products */,
 				BD1B54ED1E57E38000283569 /* TwitterNewsScreen */,
 				BD1B55021E57E38000283569 /* TwitterNewsScreenTests */,
 				BD1B550D1E57E38000283569 /* TwitterNewsScreenUITests */,
-				BD1B54EC1E57E38000283569 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				BD1B54EE1E57E38000283569 /* AppDelegate.swift */,
-				BD1B54F01E57E38000283569 /* ViewController.swift */,
-				BD1B54F21E57E38000283569 /* Main.storyboard */,
 				BD1B54F51E57E38000283569 /* Assets.xcassets */,
-				BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */,
 				BD1B54FA1E57E38000283569 /* Info.plist */,
+				BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */,
+				BD1B54F21E57E38000283569 /* Main.storyboard */,
+				BD1B54F01E57E38000283569 /* ViewController.swift */,
 			);
 			path = TwitterNewsScreen;
 			sourceTree = "<group>";
@@ -110,8 +110,8 @@
 		BD1B55021E57E38000283569 /* TwitterNewsScreenTests */ = {
 			isa = PBXGroup;
 			children = (
-				BD1B55031E57E38000283569 /* TwitterNewsScreenTests.swift */,
 				BD1B55051E57E38000283569 /* Info.plist */,
+				BD1B55031E57E38000283569 /* TwitterNewsScreenTests.swift */,
 			);
 			path = TwitterNewsScreenTests;
 			sourceTree = "<group>";
@@ -119,8 +119,8 @@
 		BD1B550D1E57E38000283569 /* TwitterNewsScreenUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */,
 				BD1B55101E57E38000283569 /* Info.plist */,
+				BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */,
 			);
 			path = TwitterNewsScreenUITests;
 			sourceTree = "<group>";
@@ -305,6 +305,7 @@
 				BD1B54F31E57E38000283569 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */ = {
@@ -313,6 +314,7 @@
 				BD1B54F81E57E38000283569 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
