@@ -1,0 +1,2623 @@
+[
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "C0DEED",
+      "profile_link_color" : "1DA1F2",
+      "lang" : "ja",
+      "favourites_count" : 32130.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "C0DEED",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/415478705859743744/GowhOpzo_normal.jpeg",
+      "friends_count" : 177.0,
+      "id" : 18331071.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "takagi-hiromitsu.jp",
+              "indices" : [
+                0.0,
+                22.0
+              ],
+              "expanded_url" : "http://takagi-hiromitsu.jp/",
+              "url" : "http://t.co/3l9rx9lzpc"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/415478705859743744/GowhOpzo_normal.jpeg",
+      "statuses_count" : 150723.0,
+      "default_profile" : true,
+      "following" : true,
+      "url" : "http://t.co/3l9rx9lzpc",
+      "listed_count" : 2203.0,
+      "name" : "Hiromitsu Takagi",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "HiromitsuTakagi",
+      "description" : "自宅研究員",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 21721.0,
+      "verified" : false,
+      "location" : "東京都",
+      "created_at" : "Tue Dec 23 10:52:48 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "18331071",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/18331071/1411223473",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "retweeted_status" : {
+      "in_reply_to_status_id" : null,
+      "user" : {
+        "time_zone" : null,
+        "protected" : false,
+        "profile_sidebar_border_color" : "C0DEED",
+        "profile_link_color" : "1DA1F2",
+        "lang" : "ja",
+        "favourites_count" : 0.0,
+        "default_profile_image" : false,
+        "profile_background_color" : "F5F8FA",
+        "profile_sidebar_fill_color" : "DDEEF6",
+        "profile_background_tile" : false,
+        "is_translator" : false,
+        "is_translation_enabled" : false,
+        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/831822647860228100/dy_u5Q_l_normal.jpg",
+        "friends_count" : 2.0,
+        "id" : 8.31817802516296e+17,
+        "entities" : {
+          "description" : {
+            "urls" : [
+
+            ]
+          }
+        },
+        "profile_background_image_url_https" : null,
+        "utc_offset" : null,
+        "profile_image_url" : "http://pbs.twimg.com/profile_images/831822647860228100/dy_u5Q_l_normal.jpg",
+        "statuses_count" : 14.0,
+        "default_profile" : true,
+        "following" : false,
+        "url" : null,
+        "listed_count" : 0.0,
+        "name" : "たかひろ",
+        "geo_enabled" : false,
+        "profile_use_background_image" : true,
+        "screen_name" : "aaa_abc1234",
+        "description" : "",
+        "notifications" : false,
+        "contributors_enabled" : false,
+        "has_extended_profile" : false,
+        "followers_count" : 2.0,
+        "verified" : false,
+        "location" : "",
+        "created_at" : "Wed Feb 15 10:49:53 +0000 2017",
+        "follow_request_sent" : false,
+        "id_str" : "831817802516295680",
+        "profile_background_image_url" : null,
+        "profile_text_color" : "333333",
+        "translator_type" : "none"
+      },
+      "source" : "<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>",
+      "is_quote_status" : false,
+      "lang" : "ja",
+      "place" : null,
+      "coordinates" : null,
+      "favorite_count" : 1.0,
+      "retweet_count" : 13.0,
+      "favorited" : false,
+      "in_reply_to_screen_name" : null,
+      "id" : 8.32225574579958e+17,
+      "retweeted" : false,
+      "text" : "地元のローカル新聞によると高梁市の新しい図書館の来館者数が10日間ほどで3万人を超えたということ。これ自体は良いこと。でも毎日平均で3000人も本当に来てるんだろうか？朝とか夜はガラガラだし、地元の知り合いもそれほど行ったという話は聞かない。行った人でも1回見学がてらとか多いけど",
+      "created_at" : "Thu Feb 16 13:50:13 +0000 2017",
+      "in_reply_to_user_id_str" : null,
+      "id_str" : "832225574579957760",
+      "truncated" : false,
+      "entities" : {
+        "urls" : [
+
+        ],
+        "user_mentions" : [
+
+        ],
+        "symbols" : [
+
+        ],
+        "hashtags" : [
+
+        ]
+      },
+      "geo" : null,
+      "in_reply_to_user_id" : null,
+      "contributors" : null,
+      "in_reply_to_status_id_str" : null
+    },
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 13.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808477420511e+17,
+    "retweeted" : false,
+    "text" : "RT @aaa_abc1234: 地元のローカル新聞によると高梁市の新しい図書館の来館者数が10日間ほどで3万人を超えたということ。これ自体は良いこと。でも毎日平均で3000人も本当に来てるんだろうか？朝とか夜はガラガラだし、地元の知り合いもそれほど行ったという話は聞かない。行…",
+    "created_at" : "Sat Feb 18 04:26:28 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808477420511232",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+        {
+          "id_str" : "831817802516295680",
+          "name" : "たかひろ",
+          "id" : 8.31817802516296e+17,
+          "screen_name" : "aaa_abc1234",
+          "indices" : [
+            3.0,
+            15.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://theworld09.com/" rel="nofollow">TheWorld⠀</a>",
+    "lang" : "ja",
+    "place" : null,
+    "retweet_count" : 2.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.3280845529969e+17,
+    "retweeted" : false,
+    "text" : "RT @Kitto8739: 【ニコ生(2017年02月19日 18:30:00開始)】ニコニコアニメスペシャル「ユーリ!!! on ICE」全12話 一挙放送 https://t.co/4heeMwdcOa
+忘れずに予約して……(離れずにそばにいてみたいな言い方)",
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "nico.ms/lv288113926",
+          "indices" : [
+            81.0,
+            104.0
+          ],
+          "expanded_url" : "http://nico.ms/lv288113926",
+          "url" : "https://t.co/4heeMwdcOa"
+        }
+      ],
+      "user_mentions" : [
+        {
+          "id_str" : "2994104022",
+          "name" : "なぞの",
+          "id" : 2994104022.0,
+          "screen_name" : "Kitto8739",
+          "indices" : [
+            3.0,
+            13.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "D9B17E",
+      "profile_link_color" : "9D582E",
+      "lang" : "ja",
+      "favourites_count" : 340375.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "8B542B",
+      "profile_sidebar_fill_color" : "EADEAA",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/821035414962061312/KOWvhGrd_normal.jpg",
+      "friends_count" : 2341.0,
+      "id" : 17192662.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "twpf.jp/uinyun",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://twpf.jp/uinyun",
+              "url" : "https://t.co/deImg4bjCi"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/49373197/20070918_3373k.gif",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/821035414962061312/KOWvhGrd_normal.jpg",
+      "statuses_count" : 289892.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/deImg4bjCi",
+      "listed_count" : 221.0,
+      "name" : "にゅるん",
+      "geo_enabled" : false,
+      "profile_use_background_image" : true,
+      "screen_name" : "uinyun",
+      "description" : "びっくりするほどディレッタントな喪女！　悲しいくらい成人。　　　　　　【興味】小説/アニメ/写真/プリン/米澤穂信/空気公団/HARCO/クラムボン/かもめ食堂/コメットさん☆　　　　　　 　　　　　　　　　　　　　　　　　　 最近は刀剣乱舞（厚藤四郎中心粟田口）とMMD動画作りがブーム。でも実家は上のあれこれ",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 2560.0,
+      "verified" : false,
+      "location" : "地球。",
+      "created_at" : "Wed Nov 05 17:04:36 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "17192662",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/17192662/1348153723",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/49373197/20070918_3373k.gif",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "possibly_sensitive_appealable" : false,
+    "retweeted_status" : {
+      "in_reply_to_status_id" : null,
+      "is_quote_status" : false,
+      "source" : "<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>",
+      "lang" : "ja",
+      "place" : null,
+      "retweet_count" : 2.0,
+      "favorited" : false,
+      "in_reply_to_screen_name" : null,
+      "id" : 8.32808024905376e+17,
+      "retweeted" : false,
+      "text" : "【ニコ生(2017年02月19日 18:30:00開始)】ニコニコアニメスペシャル「ユーリ!!! on ICE」全12話 一挙放送 https://t.co/4heeMwdcOa
+忘れずに予約して……(離れずにそばにいてみたいな言い方)",
+      "entities" : {
+        "urls" : [
+          {
+            "display_url" : "nico.ms/lv288113926",
+            "indices" : [
+              66.0,
+              89.0
+            ],
+            "expanded_url" : "http://nico.ms/lv288113926",
+            "url" : "https://t.co/4heeMwdcOa"
+          }
+        ],
+        "user_mentions" : [
+
+        ],
+        "symbols" : [
+
+        ],
+        "hashtags" : [
+
+        ]
+      },
+      "geo" : null,
+      "in_reply_to_user_id" : null,
+      "user" : {
+        "time_zone" : null,
+        "protected" : false,
+        "profile_sidebar_border_color" : "000000",
+        "profile_link_color" : "94D487",
+        "lang" : "ja",
+        "favourites_count" : 18784.0,
+        "default_profile_image" : false,
+        "profile_background_color" : "000000",
+        "profile_sidebar_fill_color" : "000000",
+        "profile_background_tile" : false,
+        "is_translator" : false,
+        "is_translation_enabled" : false,
+        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/793186752676503552/P6922I2x_normal.jpg",
+        "friends_count" : 208.0,
+        "id" : 2994104022.0,
+        "entities" : {
+          "description" : {
+            "urls" : [
+
+            ]
+          }
+        },
+        "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "utc_offset" : null,
+        "profile_image_url" : "http://pbs.twimg.com/profile_images/793186752676503552/P6922I2x_normal.jpg",
+        "statuses_count" : 22704.0,
+        "default_profile" : false,
+        "following" : false,
+        "url" : null,
+        "listed_count" : 4.0,
+        "name" : "なぞの",
+        "geo_enabled" : true,
+        "profile_use_background_image" : false,
+        "screen_name" : "Kitto8739",
+        "description" : "雑多アカです。主に漫画やアニメや特撮についてつぶやく社会人アカウント。本や舞台の感想書いたりもします。ポケット審神者です。モフモフは正義！澤野弘之氏のライブ前後には荒ぶります。FRBお気軽に☆( ´∀｀)ﾉｼ",
+        "notifications" : false,
+        "contributors_enabled" : false,
+        "has_extended_profile" : false,
+        "followers_count" : 92.0,
+        "verified" : false,
+        "location" : "県西部",
+        "created_at" : "Sat Jan 24 04:28:01 +0000 2015",
+        "follow_request_sent" : false,
+        "id_str" : "2994104022",
+        "profile_banner_url" : "https://pbs.twimg.com/profile_banners/2994104022/1463184607",
+        "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_text_color" : "000000",
+        "translator_type" : "none"
+      },
+      "possibly_sensitive_appealable" : false,
+      "coordinates" : null,
+      "favorite_count" : 1.0,
+      "possibly_sensitive" : false,
+      "created_at" : "Sat Feb 18 04:24:40 +0000 2017",
+      "contributors" : null,
+      "in_reply_to_user_id_str" : null,
+      "id_str" : "832808024905375744",
+      "truncated" : false,
+      "in_reply_to_status_id_str" : null
+    },
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Feb 18 04:26:23 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808455299690497",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "000000",
+      "profile_link_color" : "E81C4F",
+      "lang" : "ja",
+      "favourites_count" : 12923.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "000000",
+      "profile_sidebar_fill_color" : "000000",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/3204860916/c539ff0abea7adc9f455b0c68eb1002a_normal.png",
+      "friends_count" : 976.0,
+      "id" : 43570935.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "portfolio.anoworl.net",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://portfolio.anoworl.net/",
+              "url" : "https://t.co/O3CGaFPbr0"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/3204860916/c539ff0abea7adc9f455b0c68eb1002a_normal.png",
+      "statuses_count" : 23320.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/O3CGaFPbr0",
+      "listed_count" : 58.0,
+      "name" : "アルカリさんせい",
+      "geo_enabled" : true,
+      "profile_use_background_image" : false,
+      "screen_name" : "anoworl",
+      "description" : "物語世界（アナザーワールド） - another world - ――anoworl（あなわーる） / a.k.a sota",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 716.0,
+      "verified" : false,
+      "location" : "渋谷",
+      "created_at" : "Sat May 30 18:37:11 +0000 2009",
+      "follow_request_sent" : false,
+      "id_str" : "43570935",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_text_color" : "000000",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://covelline.com/feather/" rel="nofollow">feather for iOS</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808442607739e+17,
+    "retweeted" : false,
+    "text" : "哲学書をカフェで読む週末を過ごしたいのでいい感じのカフェを教えてください",
+    "created_at" : "Sat Feb 18 04:26:20 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808442607738882",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Osaka",
+      "protected" : false,
+      "profile_sidebar_border_color" : "4D2C25",
+      "profile_link_color" : "AC2E2E",
+      "lang" : "ja",
+      "favourites_count" : 15833.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "4D2C25",
+      "profile_sidebar_fill_color" : "E5945A",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/502422367050543104/l-A2rdmG_normal.jpeg",
+      "friends_count" : 1486.0,
+      "id" : 34640699.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/24569954/exchange-dl.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/502422367050543104/l-A2rdmG_normal.jpeg",
+      "statuses_count" : 208025.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : null,
+      "listed_count" : 117.0,
+      "name" : "月刊砂疾誌(さとし)",
+      "geo_enabled" : false,
+      "profile_use_background_image" : true,
+      "screen_name" : "KR_Satoshi",
+      "description" : "食器洗剤はジョイよりキュキュット
+スマホのゲームで人生の無駄な時間を埋めるのが神から与えられた役目の天使
+週末外食が楽しい民",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 2002.0,
+      "verified" : false,
+      "location" : "都内北",
+      "created_at" : "Thu Apr 23 15:28:16 +0000 2009",
+      "follow_request_sent" : false,
+      "id_str" : "34640699",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/34640699/1467528384",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/24569954/exchange-dl.jpg",
+      "profile_text_color" : "4D2C25",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://tweetlogix.com" rel="nofollow">Tweetlogix</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808438824473e+17,
+    "retweeted" : false,
+    "text" : "ららまじ、役割もあるが中低音パートを個人的な思い入れから、優先的に育ててる",
+    "created_at" : "Sat Feb 18 04:26:19 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808438824472576",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "FFFFFF",
+      "profile_link_color" : "5164E0",
+      "lang" : "ja",
+      "favourites_count" : 71371.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "1A1B1F",
+      "profile_sidebar_fill_color" : "252429",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/3323256328/f3195756ed7d318c6475e0809b1e5bca_normal.jpeg",
+      "friends_count" : 15279.0,
+      "id" : 34095576.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+            {
+              "display_url" : "moae.jp/comic/meshinis…",
+              "indices" : [
+                21.0,
+                44.0
+              ],
+              "expanded_url" : "http://www.moae.jp/comic/meshinishimashou/1",
+              "url" : "https://t.co/EIbFjUClsI"
+            },
+            {
+              "display_url" : "comic.pixiv.net/works/1218",
+              "indices" : [
+                66.0,
+                89.0
+              ],
+              "expanded_url" : "http://comic.pixiv.net/works/1218",
+              "url" : "https://t.co/Sey2KjNnEm"
+            },
+            {
+              "display_url" : "negineesan.hatenablog.com",
+              "indices" : [
+                93.0,
+                116.0
+              ],
+              "expanded_url" : "http://negineesan.hatenablog.com/",
+              "url" : "https://t.co/mDkKTUPJ3s"
+            }
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "negineesan.com",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://negineesan.com/",
+              "url" : "https://t.co/Pol02H83iR"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/61694126/banaa.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/3323256328/f3195756ed7d318c6475e0809b1e5bca_normal.jpeg",
+      "statuses_count" : 21108.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/Pol02H83iR",
+      "listed_count" : 691.0,
+      "name" : "小林銅蟲",
+      "geo_enabled" : false,
+      "profile_use_background_image" : true,
+      "screen_name" : "doom_k",
+      "description" : "ねぎ姉さん 　イブニング：めしにしましょうhttps://t.co/EIbFjUClsI MANGApixiv：さいはて 寿司虚空編https://t.co/Sey2KjNnEm ブログhttps://t.co/mDkKTUPJ3s",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 16777.0,
+      "verified" : false,
+      "location" : "横浜",
+      "created_at" : "Tue Apr 21 23:47:31 +0000 2009",
+      "follow_request_sent" : false,
+      "id_str" : "34095576",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/34095576/1401330597",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/61694126/banaa.jpg",
+      "profile_text_color" : "666666",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808438442779e+17,
+    "retweeted" : false,
+    "text" : "ぴち料理",
+    "created_at" : "Sat Feb 18 04:26:19 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808438442778625",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "87BC44",
+      "profile_link_color" : "E8B191",
+      "lang" : "en",
+      "favourites_count" : 43488.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "E8B191",
+      "profile_sidebar_fill_color" : "E0FF92",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/719203195004674053/IrZMHPRZ_normal.jpg",
+      "friends_count" : 1927.0,
+      "id" : 14868577.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/2814371/080621w.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/719203195004674053/IrZMHPRZ_normal.jpg",
+      "statuses_count" : 261908.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : null,
+      "listed_count" : 104.0,
+      "name" : "FUNBARE☆さいのん",
+      "geo_enabled" : false,
+      "profile_use_background_image" : false,
+      "screen_name" : "sayn0",
+      "description" : "いやなことはいや すきなものがすき かわいいものとメガネがすき ゆるふわになりたい社壊人",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 1567.0,
+      "verified" : false,
+      "location" : "現在金沢近郊を散策中。好きな場所は武蔵野。",
+      "created_at" : "Thu May 22 14:08:46 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "14868577",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/2814371/080621w.jpg",
+      "profile_text_color" : "000000",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.softama.com/" rel="nofollow">ツイタマ for Android</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808432470077e+17,
+    "retweeted" : false,
+    "text" : "月次な感想になるけど、それ町最終巻のエピローグがすごくよかった",
+    "created_at" : "Sat Feb 18 04:26:17 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808432470077441",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "FFFFFF",
+      "profile_link_color" : "ABB8C2",
+      "lang" : "en",
+      "favourites_count" : 10905.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "555555",
+      "profile_sidebar_fill_color" : "EFEFEF",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/684182681777606658/M64HZ0lx_normal.png",
+      "friends_count" : 514.0,
+      "id" : 91056281.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "star-zero.com",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://star-zero.com/",
+              "url" : "https://t.co/UxNRCg45U8"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/825117339/f631d4f485e9db7f87b90461ce7be454.jpeg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/684182681777606658/M64HZ0lx_normal.png",
+      "statuses_count" : 110120.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/UxNRCg45U8",
+      "listed_count" : 73.0,
+      "name" : "すたぜろ",
+      "geo_enabled" : false,
+      "profile_use_background_image" : true,
+      "screen_name" : "STAR_ZERO",
+      "description" : "人間",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 696.0,
+      "verified" : false,
+      "location" : "日本",
+      "created_at" : "Thu Nov 19 07:21:11 +0000 2009",
+      "follow_request_sent" : false,
+      "id_str" : "91056281",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/825117339/f631d4f485e9db7f87b90461ce7be454.jpeg",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://tapbots.com/tweetbot" rel="nofollow">Tweetbot for iΟS</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808431819985e+17,
+    "retweeted" : false,
+    "text" : "SAO見てきた。すごく良かった。戦闘シーンとかはかなりテンション上がった。",
+    "created_at" : "Sat Feb 18 04:26:17 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808431819984898",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "FFFFFF",
+      "profile_link_color" : "333333",
+      "lang" : "ja",
+      "favourites_count" : 12732.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "ACDED6",
+      "profile_sidebar_fill_color" : "F6F6F6",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/806761372662972416/ZlsaX46p_normal.jpg",
+      "friends_count" : 618.0,
+      "id" : 495359210.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "keens.github.io",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://keens.github.io/",
+              "url" : "https://t.co/L7ZAyMIbxF"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/455229120134144000/Qh_0Rvq4.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/806761372662972416/ZlsaX46p_normal.jpg",
+      "statuses_count" : 49854.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/L7ZAyMIbxF",
+      "listed_count" : 117.0,
+      "name" : "κeen",
+      "geo_enabled" : false,
+      "profile_use_background_image" : false,
+      "screen_name" : "blackenedgold",
+      "description" : "LispとかRustとかMLとか書きます。EmacsとかLinuxとか使います。コンパイラとかに興味があります。因みにκeenのκはギリシャ文字のkappaです⸜( ¯⌓¯ )⸝",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : true,
+      "followers_count" : 1627.0,
+      "verified" : false,
+      "location" : "コナ",
+      "created_at" : "Fri Feb 17 21:47:16 +0000 2012",
+      "follow_request_sent" : false,
+      "id_str" : "495359210",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/455229120134144000/Qh_0Rvq4.png",
+      "profile_text_color" : "038543",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808429743862e+17,
+    "retweeted" : false,
+    "text" : "「中村君フォントを用意しました」 #mitoudemoday",
+    "created_at" : "Sat Feb 18 04:26:17 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808429743861760",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+        {
+          "indices" : [
+            17.0,
+            30.0
+          ],
+          "text" : "mitoudemoday"
+        }
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "000000",
+      "profile_link_color" : "696969",
+      "lang" : "ja",
+      "favourites_count" : 591080.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "FFFFFF",
+      "profile_sidebar_fill_color" : "00FF04",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/736411972246241284/Q2Jyp76z_normal.jpg",
+      "friends_count" : 282.0,
+      "id" : 13407282.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "twpf.jp/shy_azusa",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://twpf.jp/shy_azusa",
+              "url" : "https://t.co/XYB8odXWzK"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/459452977355317248/XCuVXXdV.jpeg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/736411972246241284/Q2Jyp76z_normal.jpg",
+      "statuses_count" : 327861.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/XYB8odXWzK",
+      "listed_count" : 109.0,
+      "name" : "竹井さんとこの",
+      "geo_enabled" : false,
+      "profile_use_background_image" : true,
+      "screen_name" : "shy_azusa",
+      "description" : "iPhone 6S/PS4/3DS/iMac/iOS/Mac/jubeat/MtG/Carbonara/uncensored/",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 1098.0,
+      "verified" : false,
+      "location" : "君がいたあらゆる場所",
+      "created_at" : "Wed Feb 13 00:00:33 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "13407282",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/13407282/1398291728",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/459452977355317248/XCuVXXdV.jpeg",
+      "profile_text_color" : "00FF10",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808423204942e+17,
+    "retweeted" : false,
+    "text" : "起きたー",
+    "created_at" : "Sat Feb 18 04:26:15 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808423204941825",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "D3D2CF",
+      "profile_link_color" : "088253",
+      "lang" : "ja",
+      "favourites_count" : 4858.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "EDECE9",
+      "profile_sidebar_fill_color" : "E3E2DE",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/755891394959376384/MN_by5CB_normal.jpg",
+      "friends_count" : 1414.0,
+      "id" : 48673113.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "six-dimension.sakura.ne.jp",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://six-dimension.sakura.ne.jp/",
+              "url" : "https://t.co/LknlCwQFd4"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme3/bg.gif",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/755891394959376384/MN_by5CB_normal.jpg",
+      "statuses_count" : 83726.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/LknlCwQFd4",
+      "listed_count" : 82.0,
+      "name" : "むつぎはじめ",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "Six_D",
+      "description" : "おねショタとニンジャとメカ(ガンダム、ゾイド等々)が好きです。 #prjct6d #おねショタ FGO 642,670,470  ニンジャは垢分けた",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 1608.0,
+      "verified" : false,
+      "location" : "おいでませ鹿児島市",
+      "created_at" : "Fri Jun 19 10:49:19 +0000 2009",
+      "follow_request_sent" : false,
+      "id_str" : "48673113",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/48673113/1467897332",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme3/bg.gif",
+      "profile_text_color" : "634047",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808419249705e+17,
+    "retweeted" : false,
+    "text" : "生乳(きにゅう)ソフトクリームののぼりをなまちちと読んでドキッとしない奴とは友達じゃないですよ",
+    "created_at" : "Sat Feb 18 04:26:14 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808419249704960",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "lang" : "ja",
+    "place" : null,
+    "retweet_count" : 24.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808419153244e+17,
+    "retweeted" : false,
+    "text" : "RT @sanyo_news: 高梁市図書館 もう旧館１年分来館　３万人超え、年間目標上回る勢い https://t.co/HI9Y2HiMC6",
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "dlvr.it/NP1tQ9",
+          "indices" : [
+            49.0,
+            72.0
+          ],
+          "expanded_url" : "http://dlvr.it/NP1tQ9",
+          "url" : "https://t.co/HI9Y2HiMC6"
+        }
+      ],
+      "user_mentions" : [
+        {
+          "id_str" : "165680694",
+          "name" : "山陽新聞",
+          "id" : 165680694.0,
+          "screen_name" : "sanyo_news",
+          "indices" : [
+            3.0,
+            14.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "C0DEED",
+      "profile_link_color" : "1DA1F2",
+      "lang" : "ja",
+      "favourites_count" : 32130.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "C0DEED",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/415478705859743744/GowhOpzo_normal.jpeg",
+      "friends_count" : 177.0,
+      "id" : 18331071.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "takagi-hiromitsu.jp",
+              "indices" : [
+                0.0,
+                22.0
+              ],
+              "expanded_url" : "http://takagi-hiromitsu.jp/",
+              "url" : "http://t.co/3l9rx9lzpc"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/415478705859743744/GowhOpzo_normal.jpeg",
+      "statuses_count" : 150723.0,
+      "default_profile" : true,
+      "following" : true,
+      "url" : "http://t.co/3l9rx9lzpc",
+      "listed_count" : 2203.0,
+      "name" : "Hiromitsu Takagi",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "HiromitsuTakagi",
+      "description" : "自宅研究員",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 21721.0,
+      "verified" : false,
+      "location" : "東京都",
+      "created_at" : "Tue Dec 23 10:52:48 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "18331071",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/18331071/1411223473",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "possibly_sensitive_appealable" : false,
+    "retweeted_status" : {
+      "in_reply_to_status_id" : null,
+      "is_quote_status" : false,
+      "source" : "<a href="https://dlvrit.com/" rel="nofollow">dlvr.it</a>",
+      "lang" : "ja",
+      "place" : null,
+      "retweet_count" : 24.0,
+      "favorited" : false,
+      "in_reply_to_screen_name" : null,
+      "id" : 8.32214473804911e+17,
+      "retweeted" : false,
+      "text" : "高梁市図書館 もう旧館１年分来館　３万人超え、年間目標上回る勢い https://t.co/HI9Y2HiMC6",
+      "entities" : {
+        "urls" : [
+          {
+            "display_url" : "dlvr.it/NP1tQ9",
+            "indices" : [
+              33.0,
+              56.0
+            ],
+            "expanded_url" : "http://dlvr.it/NP1tQ9",
+            "url" : "https://t.co/HI9Y2HiMC6"
+          }
+        ],
+        "user_mentions" : [
+
+        ],
+        "symbols" : [
+
+        ],
+        "hashtags" : [
+
+        ]
+      },
+      "geo" : null,
+      "in_reply_to_user_id" : null,
+      "user" : {
+        "time_zone" : "Tokyo",
+        "protected" : false,
+        "profile_sidebar_border_color" : "C0DEED",
+        "profile_link_color" : "0084B4",
+        "lang" : "ja",
+        "favourites_count" : 0.0,
+        "default_profile_image" : false,
+        "profile_background_color" : "C0DEED",
+        "profile_sidebar_fill_color" : "DDEEF6",
+        "profile_background_tile" : false,
+        "is_translator" : false,
+        "is_translation_enabled" : false,
+        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/1093551060/_______3_normal.JPG",
+        "friends_count" : 1.0,
+        "id" : 165680694.0,
+        "entities" : {
+          "description" : {
+            "urls" : [
+
+            ]
+          },
+          "url" : {
+            "urls" : [
+              {
+                "display_url" : "sanyonews.jp",
+                "indices" : [
+                  0.0,
+                  22.0
+                ],
+                "expanded_url" : "http://www.sanyonews.jp",
+                "url" : "http://t.co/qSHvuhpBJf"
+              }
+            ]
+          }
+        },
+        "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/129917828/___21.jpg",
+        "utc_offset" : 32400.0,
+        "profile_image_url" : "http://pbs.twimg.com/profile_images/1093551060/_______3_normal.JPG",
+        "statuses_count" : 57709.0,
+        "default_profile" : false,
+        "following" : false,
+        "url" : "http://t.co/qSHvuhpBJf",
+        "listed_count" : 955.0,
+        "name" : "山陽新聞",
+        "geo_enabled" : false,
+        "profile_use_background_image" : true,
+        "screen_name" : "sanyo_news",
+        "description" : "山陽新聞社の公式アカウントです。岡山地域の最新ニュースや生活情報を発信します。",
+        "notifications" : false,
+        "contributors_enabled" : false,
+        "has_extended_profile" : false,
+        "followers_count" : 25837.0,
+        "verified" : true,
+        "location" : "岡山市北区柳町２－１－１",
+        "created_at" : "Mon Jul 12 07:23:36 +0000 2010",
+        "follow_request_sent" : false,
+        "id_str" : "165680694",
+        "profile_banner_url" : "https://pbs.twimg.com/profile_banners/165680694/1401534683",
+        "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/129917828/___21.jpg",
+        "profile_text_color" : "333333",
+        "translator_type" : "none"
+      },
+      "possibly_sensitive_appealable" : false,
+      "coordinates" : null,
+      "favorite_count" : 10.0,
+      "possibly_sensitive" : false,
+      "created_at" : "Thu Feb 16 13:06:07 +0000 2017",
+      "contributors" : null,
+      "in_reply_to_user_id_str" : null,
+      "id_str" : "832214473804910594",
+      "truncated" : false,
+      "in_reply_to_status_id_str" : null
+    },
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Feb 18 04:26:14 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808419153244160",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://www.socialflow.com" rel="nofollow">SocialFlow</a>",
+    "lang" : "en",
+    "place" : null,
+    "retweet_count" : 1.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.3280837434121e+17,
+    "retweeted" : false,
+    "text" : "Snap takes aim at Facebook in roadshow video https://t.co/NXoy5zrz0l",
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "tcrn.ch/2lTeUeH",
+          "indices" : [
+            45.0,
+            68.0
+          ],
+          "expanded_url" : "http://tcrn.ch/2lTeUeH",
+          "url" : "https://t.co/NXoy5zrz0l"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Pacific Time (US & Canada)",
+      "protected" : false,
+      "profile_sidebar_border_color" : "FFFFFF",
+      "profile_link_color" : "097000",
+      "lang" : "en",
+      "favourites_count" : 1794.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "149500",
+      "profile_sidebar_fill_color" : "DDFFCC",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/615392662233808896/EtxjSSKk_normal.jpg",
+      "friends_count" : 888.0,
+      "id" : 816653.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "techcrunch.com",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://techcrunch.com",
+              "url" : "https://t.co/b5Oyx12qGG"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/621096023751004161/BAKy7hCT.png",
+      "utc_offset" : -28800.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/615392662233808896/EtxjSSKk_normal.jpg",
+      "statuses_count" : 150002.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/b5Oyx12qGG",
+      "listed_count" : 108399.0,
+      "name" : "TechCrunch",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "TechCrunch",
+      "description" : "Breaking technology news, analysis, and opinions from TechCrunch. The number one guide for all things tech. Got a tip? Let us know tips@techcrunch.com",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 8352500.0,
+      "verified" : true,
+      "location" : "San Francisco, CA",
+      "created_at" : "Wed Mar 07 01:27:09 +0000 2007",
+      "follow_request_sent" : false,
+      "id_str" : "816653",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/816653/1486488915",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/621096023751004161/BAKy7hCT.png",
+      "profile_text_color" : "222222",
+      "translator_type" : "none"
+    },
+    "possibly_sensitive_appealable" : false,
+    "coordinates" : null,
+    "favorite_count" : 1.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Feb 18 04:26:03 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808374341210112",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://tmh.yomiuri.co.jp/socialkun/" rel="nofollow">Socialkun</a>",
+    "lang" : "ja",
+    "place" : null,
+    "retweet_count" : 4.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808373049446e+17,
+    "retweeted" : false,
+    "text" : "RT @YOL_economy: ふるさと納税で「赤字４億円」…町田市長が批判 https://t.co/v33KbKOrbr",
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "j.mp/2kIkxaM",
+          "indices" : [
+            40.0,
+            63.0
+          ],
+          "expanded_url" : "http://j.mp/2kIkxaM",
+          "url" : "https://t.co/v33KbKOrbr"
+        }
+      ],
+      "user_mentions" : [
+        {
+          "id_str" : "494807654",
+          "name" : "読売新聞 経済",
+          "id" : 494807654.0,
+          "screen_name" : "YOL_economy",
+          "indices" : [
+            3.0,
+            15.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "C0DEED",
+      "profile_link_color" : "0084B4",
+      "lang" : "ja",
+      "favourites_count" : 96.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "15008A",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/656673174415798272/VRmuApZG_normal.png",
+      "friends_count" : 25.0,
+      "id" : 109488235.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "yomiuri.co.jp",
+              "indices" : [
+                0.0,
+                22.0
+              ],
+              "expanded_url" : "http://www.yomiuri.co.jp/",
+              "url" : "http://t.co/eUA075GYOq"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/266210340/Yomiuri_online_background3.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/656673174415798272/VRmuApZG_normal.png",
+      "statuses_count" : 92414.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "http://t.co/eUA075GYOq",
+      "listed_count" : 23147.0,
+      "name" : "読売新聞YOL",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "Yomiuri_Online",
+      "description" : "読売新聞のニュースサイトです。どこよりも「速く」「面白く」「役に立つ」がモットーです。政治、経済、国際、社会、スポーツ、エンタメなどあらゆるジャンルから「旬のニュース」をお届けします。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 675504.0,
+      "verified" : true,
+      "location" : "東京都千代田区",
+      "created_at" : "Fri Jan 29 06:14:45 +0000 2010",
+      "follow_request_sent" : false,
+      "id_str" : "109488235",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/109488235/1485397020",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/266210340/Yomiuri_online_background3.png",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "possibly_sensitive_appealable" : false,
+    "retweeted_status" : {
+      "in_reply_to_status_id" : null,
+      "is_quote_status" : false,
+      "source" : "<a href="http://tmh.yomiuri.co.jp/socialkun/" rel="nofollow">Socialkun</a>",
+      "lang" : "ja",
+      "place" : null,
+      "retweet_count" : 4.0,
+      "favorited" : false,
+      "in_reply_to_screen_name" : null,
+      "id" : 8.32806369635889e+17,
+      "retweeted" : false,
+      "text" : "ふるさと納税で「赤字４億円」…町田市長が批判 https://t.co/v33KbKOrbr",
+      "entities" : {
+        "urls" : [
+          {
+            "display_url" : "j.mp/2kIkxaM",
+            "indices" : [
+              23.0,
+              46.0
+            ],
+            "expanded_url" : "http://j.mp/2kIkxaM",
+            "url" : "https://t.co/v33KbKOrbr"
+          }
+        ],
+        "user_mentions" : [
+
+        ],
+        "symbols" : [
+
+        ],
+        "hashtags" : [
+
+        ]
+      },
+      "geo" : null,
+      "in_reply_to_user_id" : null,
+      "user" : {
+        "time_zone" : "Tokyo",
+        "protected" : false,
+        "profile_sidebar_border_color" : "FFFFFF",
+        "profile_link_color" : "0C6C0B",
+        "lang" : "ja",
+        "favourites_count" : 0.0,
+        "default_profile_image" : false,
+        "profile_background_color" : "FFFFFF",
+        "profile_sidebar_fill_color" : "DDEEF6",
+        "profile_background_tile" : false,
+        "is_translator" : false,
+        "is_translation_enabled" : false,
+        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/656672450608939008/hGa6kShi_normal.png",
+        "friends_count" : 14.0,
+        "id" : 494807654.0,
+        "entities" : {
+          "description" : {
+            "urls" : [
+
+            ]
+          },
+          "url" : {
+            "urls" : [
+              {
+                "display_url" : "yomiuri.co.jp/economy/",
+                "indices" : [
+                  0.0,
+                  22.0
+                ],
+                "expanded_url" : "http://www.yomiuri.co.jp/economy/",
+                "url" : "http://t.co/d3lYGcOX2l"
+              }
+            ]
+          }
+        },
+        "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/475913774243663872/1eZE_3Wv.jpeg",
+        "utc_offset" : 32400.0,
+        "profile_image_url" : "http://pbs.twimg.com/profile_images/656672450608939008/hGa6kShi_normal.png",
+        "statuses_count" : 18295.0,
+        "default_profile" : false,
+        "following" : false,
+        "url" : "http://t.co/d3lYGcOX2l",
+        "listed_count" : 872.0,
+        "name" : "読売新聞 経済",
+        "geo_enabled" : false,
+        "profile_use_background_image" : true,
+        "screen_name" : "YOL_economy",
+        "description" : "読売新聞のニュースサイト、YOL（@Yomiuri_Online）の「経済」コーナーです。毎日の家計管理から資産運用、国際金融まで、深い内容の記事・分かりやすい解説が持ち味。また、著名企業人の成功のノウハウや、専門家による為替や投資のアドバイスも必見です。",
+        "notifications" : false,
+        "contributors_enabled" : false,
+        "has_extended_profile" : false,
+        "followers_count" : 17239.0,
+        "verified" : true,
+        "location" : "東京都千代田区",
+        "created_at" : "Fri Feb 17 08:42:42 +0000 2012",
+        "follow_request_sent" : false,
+        "id_str" : "494807654",
+        "profile_banner_url" : "https://pbs.twimg.com/profile_banners/494807654/1402465634",
+        "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/475913774243663872/1eZE_3Wv.jpeg",
+        "profile_text_color" : "333333",
+        "translator_type" : "none"
+      },
+      "possibly_sensitive_appealable" : false,
+      "coordinates" : null,
+      "favorite_count" : 2.0,
+      "possibly_sensitive" : false,
+      "created_at" : "Sat Feb 18 04:18:05 +0000 2017",
+      "contributors" : null,
+      "in_reply_to_user_id_str" : null,
+      "id_str" : "832806369635889153",
+      "truncated" : false,
+      "in_reply_to_status_id_str" : null
+    },
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Feb 18 04:26:03 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808373049446400",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "86A4A6",
+      "profile_link_color" : "FF3300",
+      "lang" : "en",
+      "favourites_count" : 3339.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "709397",
+      "profile_sidebar_fill_color" : "A0C5C7",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/525991223060746241/_ORoKYuX_normal.png",
+      "friends_count" : 1013.0,
+      "id" : 49661959.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "tagomoris.hatenablog.com",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://tagomoris.hatenablog.com/",
+              "url" : "https://t.co/xsrfjXgPdw"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme6/bg.gif",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/525991223060746241/_ORoKYuX_normal.png",
+      "statuses_count" : 107368.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/xsrfjXgPdw",
+      "listed_count" : 442.0,
+      "name" : "tagomoris",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "tagomoris",
+      "description" : "週末は山梨にいます。Working at Treasure Data, Inc. Mentions in English are welcome :)",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 6171.0,
+      "verified" : false,
+      "location" : "東京都目黒区",
+      "created_at" : "Mon Jun 22 15:30:58 +0000 2009",
+      "follow_request_sent" : false,
+      "id_str" : "49661959",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/49661959/1464156168",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme6/bg.gif",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808368393712e+17,
+    "retweeted" : false,
+    "text" : "160kmかー久しく走ってない、と思いかけたがこないだのアレなサイクリングで走っていた",
+    "created_at" : "Sat Feb 18 04:26:02 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808368393711616",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : 8.3280765760598e+17,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "000000",
+      "profile_link_color" : "1B95E0",
+      "lang" : "ja",
+      "favourites_count" : 351.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "000000",
+      "profile_sidebar_fill_color" : "000000",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/801632940996194304/lbUutqW2_normal.jpg",
+      "friends_count" : 1808.0,
+      "id" : 3272341.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "blog.okazuki.jp",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://blog.okazuki.jp/",
+              "url" : "https://t.co/ClJhat7ZIJ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme17/bg.gif",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/801632940996194304/lbUutqW2_normal.jpg",
+      "statuses_count" : 176557.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/ClJhat7ZIJ",
+      "listed_count" : 167.0,
+      "name" : "かずき@Book",
+      "geo_enabled" : false,
+      "profile_use_background_image" : false,
+      "screen_name" : "okazuki",
+      "description" : "Microsoft MVP for Windows Developmentです。BlogはWPF/UWP/Xamarinをたしなむ程度に。Twitterは日常で思ったことを垂れ流しつつBlogの更新情報なんかを垂れ流し。 掲載内容は私自身の見解であり、所属する組織を代表するものではありません",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : true,
+      "followers_count" : 2532.0,
+      "verified" : false,
+      "location" : "東京都多摩市",
+      "created_at" : "Tue Apr 03 01:34:20 +0000 2007",
+      "follow_request_sent" : false,
+      "id_str" : "3272341",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/3272341/1468207631",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme17/bg.gif",
+      "profile_text_color" : "000000",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://www.twitter.com" rel="nofollow">Twitter for Windows</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : "tsu1100",
+    "id" : 8.3280836277341e+17,
+    "retweeted" : false,
+    "text" : "@tsu1100 筋肉もつけたいですね！",
+    "created_at" : "Sat Feb 18 04:26:01 +0000 2017",
+    "in_reply_to_user_id_str" : "74743475",
+    "id_str" : "832808362773409792",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+        {
+          "id_str" : "74743475",
+          "name" : "自称豚の窓際SE",
+          "id" : 74743475.0,
+          "screen_name" : "tsu1100",
+          "indices" : [
+            0.0,
+            8.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : 74743475.0,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : "832807657605980161"
+  },
+  {
+    "in_reply_to_status_id" : 8.32808131088437e+17,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "FFFFFF",
+      "profile_link_color" : "333333",
+      "lang" : "ja",
+      "favourites_count" : 12732.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "ACDED6",
+      "profile_sidebar_fill_color" : "F6F6F6",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/806761372662972416/ZlsaX46p_normal.jpg",
+      "friends_count" : 618.0,
+      "id" : 495359210.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "keens.github.io",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://keens.github.io/",
+              "url" : "https://t.co/L7ZAyMIbxF"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/455229120134144000/Qh_0Rvq4.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/806761372662972416/ZlsaX46p_normal.jpg",
+      "statuses_count" : 49854.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/L7ZAyMIbxF",
+      "listed_count" : 117.0,
+      "name" : "κeen",
+      "geo_enabled" : false,
+      "profile_use_background_image" : false,
+      "screen_name" : "blackenedgold",
+      "description" : "LispとかRustとかMLとか書きます。EmacsとかLinuxとか使います。コンパイラとかに興味があります。因みにκeenのκはギリシャ文字のkappaです⸜( ¯⌓¯ )⸝",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : true,
+      "followers_count" : 1627.0,
+      "verified" : false,
+      "location" : "コナ",
+      "created_at" : "Fri Feb 17 21:47:16 +0000 2012",
+      "follow_request_sent" : false,
+      "id_str" : "495359210",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/455229120134144000/Qh_0Rvq4.png",
+      "profile_text_color" : "038543",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : "blackenedgold",
+    "id" : 8.32808355651412e+17,
+    "retweeted" : false,
+    "text" : "任意の文字のアノテーションフォントが作れるらしい #mitoudemoday",
+    "created_at" : "Sat Feb 18 04:25:59 +0000 2017",
+    "in_reply_to_user_id_str" : "495359210",
+    "id_str" : "832808355651411968",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+        {
+          "indices" : [
+            25.0,
+            38.0
+          ],
+          "text" : "mitoudemoday"
+        }
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : 495359210.0,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : "832808131088437251"
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://foursquare.com" rel="nofollow">Foursquare</a>",
+    "lang" : "ja",
+    "place" : null,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808346214351e+17,
+    "retweeted" : false,
+    "text" : "土日休日の参観は行なっていないというのにバスから多くの人が降りて中に入っていった。 (@ 参議院 in 千代田区, 東京都) https://t.co/DDpErZQ82t",
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "swarmapp.com/c/fCc2zmVZSwj",
+          "indices" : [
+            63.0,
+            86.0
+          ],
+          "expanded_url" : "https://www.swarmapp.com/c/fCc2zmVZSwj",
+          "url" : "https://t.co/DDpErZQ82t"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "000000",
+      "profile_link_color" : "17184B",
+      "lang" : "ja",
+      "favourites_count" : 123037.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "17184B",
+      "profile_sidebar_fill_color" : "000000",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817661325279043588/iLguvSzq_normal.jpg",
+      "friends_count" : 1298.0,
+      "id" : 10458712.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "sawakura.com",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://www.sawakura.com/",
+              "url" : "https://t.co/xHIPQGrKie"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme4/bg.gif",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817661325279043588/iLguvSzq_normal.jpg",
+      "statuses_count" : 297526.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/xHIPQGrKie",
+      "listed_count" : 298.0,
+      "name" : "澤倉いたち",
+      "geo_enabled" : false,
+      "profile_use_background_image" : true,
+      "screen_name" : "itati0",
+      "description" : "オタク全般浅く広く。LiSA。美味しいもの。社会人大学生。たまにボドゲ会を開催。開催する際には自動ツイートが増えるため注意。発言数の波激しい。お気軽ふぁぼ。元手動地震bot。ひわいじゃないもんっ＞△＜ / icon by @ech_",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : true,
+      "followers_count" : 2855.0,
+      "verified" : false,
+      "location" : "北海道→首都圏",
+      "created_at" : "Thu Nov 22 03:36:24 +0000 2007",
+      "follow_request_sent" : false,
+      "id_str" : "10458712",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_text_color" : "000000",
+      "translator_type" : "none"
+    },
+    "possibly_sensitive_appealable" : false,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Feb 18 04:25:57 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808346214350848",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "000000",
+      "profile_link_color" : "F5ABB5",
+      "lang" : "ja",
+      "favourites_count" : 9773.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "000000",
+      "profile_sidebar_fill_color" : "000000",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/802893392837414912/vZVRLKqr_normal.jpg",
+      "friends_count" : 571.0,
+      "id" : 74743475.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/802893392837414912/vZVRLKqr_normal.jpg",
+      "statuses_count" : 513830.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : null,
+      "listed_count" : 81.0,
+      "name" : "自称豚の窓際SE",
+      "geo_enabled" : false,
+      "profile_use_background_image" : false,
+      "screen_name" : "tsu1100",
+      "description" : "だいたいにーと",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 1106.0,
+      "verified" : false,
+      "location" : "",
+      "created_at" : "Wed Sep 16 14:29:39 +0000 2009",
+      "follow_request_sent" : false,
+      "id_str" : "74743475",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/74743475/1450840797",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_text_color" : "000000",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808335732675e+17,
+    "retweeted" : false,
+    "text" : "3台目は全然そんなことならなかったので，原因特定できなくてとりあえず交換して時間を稼ぐって感じだったのかな感ある",
+    "created_at" : "Sat Feb 18 04:25:54 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808335732674560",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : 8.32807737536831e+17,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "283333",
+      "profile_link_color" : "0000FF",
+      "lang" : "ja",
+      "favourites_count" : 50318.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "FFFFFF",
+      "profile_sidebar_fill_color" : "F0F0F0",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/1494993646/sachiko_f_normal.jpg",
+      "friends_count" : 2502.0,
+      "id" : 3787321.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "head.hatenadiary.jp",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://head.hatenadiary.jp/",
+              "url" : "https://t.co/xbjSaXeIOi"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/1494993646/sachiko_f_normal.jpg",
+      "statuses_count" : 253478.0,
+      "default_profile" : false,
+      "following" : true,
+      "url" : "https://t.co/xbjSaXeIOi",
+      "listed_count" : 219.0,
+      "name" : "Head",
+      "geo_enabled" : true,
+      "profile_use_background_image" : false,
+      "screen_name" : "head_s",
+      "description" : "ごきげんよう。音楽、料理、小説、江戸、ライトノベル、アニメ、まあいろいろと。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : true,
+      "followers_count" : 3252.0,
+      "verified" : false,
+      "location" : "浅草御蔵前",
+      "created_at" : "Sun Apr 08 13:13:38 +0000 2007",
+      "follow_request_sent" : false,
+      "id_str" : "3787321",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/3787321/1398953617",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "source" : "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : "head_s",
+    "id" : 8.32808331706196e+17,
+    "retweeted" : false,
+    "text" : "隣のゾウガメがやけにヘラジカに注目しているあたりも面白い。",
+    "created_at" : "Sat Feb 18 04:25:53 +0000 2017",
+    "in_reply_to_user_id_str" : "3787321",
+    "id_str" : "832808331706195968",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : 3787321.0,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : "832807737536831488"
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter for iPad</a>",
+    "lang" : "ja",
+    "place" : null,
+    "retweet_count" : 21.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32808331215385e+17,
+    "retweeted" : false,
+    "text" : "RT @olvijp: ゲームクリエイターズカンファレンス開催記念！ 登壇者の関連書籍（Kindle版）が約50% OFFとなっております  https://t.co/Yubw9K5iXw
+『ゲームを動かす技術と発想』1080円 『ゲームメカニクス』2160円など 
+#gcco…",
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "amzn.to/2lq9Hu7",
+          "indices" : [
+            71.0,
+            94.0
+          ],
+          "expanded_url" : "http://amzn.to/2lq9Hu7",
+          "url" : "https://t.co/Yubw9K5iXw"
+        }
+      ],
+      "user_mentions" : [
+        {
+          "id_str" : "6762192",
+          "name" : "せつやくさん",
+          "id" : 6762192.0,
+          "screen_name" : "olvijp",
+          "indices" : [
+            3.0,
+            10.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "C0DEED",
+      "profile_link_color" : "1DA1F2",
+      "lang" : "ja",
+      "favourites_count" : 126380.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "C0DEED",
+      "profile_sidebar_fill_color" : "DDEEF6",
+      "profile_background_tile" : false,
+      "is_translator" : false,
+      "is_translation_enabled" : false,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/623364048390782976/AJdnBhM4_normal.jpg",
+      "friends_count" : 602.0,
+      "id" : 9310282.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "sassembla.github.com/Public/",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "http://sassembla.github.com/Public/",
+              "url" : "https://t.co/Gd7YZIrJ2Q"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/623364048390782976/AJdnBhM4_normal.jpg",
+      "statuses_count" : 331752.0,
+      "default_profile" : true,
+      "following" : true,
+      "url" : "https://t.co/Gd7YZIrJ2Q",
+      "listed_count" : 309.0,
+      "name" : "殺意駆動開発",
+      "geo_enabled" : false,
+      "profile_use_background_image" : true,
+      "screen_name" : "toru_inoue",
+      "description" : "株式会社KISSAKIの人。うどんエンジニアでゲームとかサービスとか作ってる。まだどっちかわかってない",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 1763.0,
+      "verified" : false,
+      "location" : "Y0K0H4M4",
+      "created_at" : "Mon Oct 08 14:58:04 +0000 2007",
+      "follow_request_sent" : false,
+      "id_str" : "9310282",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/9310282/1358263264",
+      "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_text_color" : "333333",
+      "translator_type" : "none"
+    },
+    "possibly_sensitive_appealable" : false,
+    "retweeted_status" : {
+      "in_reply_to_status_id" : null,
+      "is_quote_status" : false,
+      "source" : "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+      "lang" : "ja",
+      "place" : null,
+      "retweet_count" : 21.0,
+      "favorited" : false,
+      "in_reply_to_screen_name" : null,
+      "id" : 8.32758628465594e+17,
+      "retweeted" : false,
+      "text" : "ゲームクリエイターズカンファレンス開催記念！ 登壇者の関連書籍（Kindle版）が約50% OFFとなっております  https://t.co/Yubw9K5iXw
+『ゲームを動かす技術と発想』1080円 『ゲームメカニクス』2160円など 
+#gcconf2017",
+      "entities" : {
+        "urls" : [
+          {
+            "display_url" : "amzn.to/2lq9Hu7",
+            "indices" : [
+              59.0,
+              82.0
+            ],
+            "expanded_url" : "http://amzn.to/2lq9Hu7",
+            "url" : "https://t.co/Yubw9K5iXw"
+          }
+        ],
+        "user_mentions" : [
+
+        ],
+        "symbols" : [
+
+        ],
+        "hashtags" : [
+          {
+            "indices" : [
+              122.0,
+              133.0
+            ],
+            "text" : "gcconf2017"
+          }
+        ]
+      },
+      "geo" : null,
+      "in_reply_to_user_id" : null,
+      "user" : {
+        "time_zone" : "Tokyo",
+        "protected" : false,
+        "profile_sidebar_border_color" : "87BC44",
+        "profile_link_color" : "9266CC",
+        "lang" : "en",
+        "favourites_count" : 2845.0,
+        "default_profile_image" : false,
+        "profile_background_color" : "9AE4E8",
+        "profile_sidebar_fill_color" : "E0FF92",
+        "profile_background_tile" : false,
+        "is_translator" : false,
+        "is_translation_enabled" : false,
+        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/635878984828391424/BWEnDN2C_normal.jpg",
+        "friends_count" : 885.0,
+        "id" : 6762192.0,
+        "entities" : {
+          "description" : {
+            "urls" : [
+
+            ]
+          }
+        },
+        "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "utc_offset" : 32400.0,
+        "profile_image_url" : "http://pbs.twimg.com/profile_images/635878984828391424/BWEnDN2C_normal.jpg",
+        "statuses_count" : 4427.0,
+        "default_profile" : false,
+        "following" : false,
+        "url" : null,
+        "listed_count" : 43.0,
+        "name" : "せつやくさん",
+        "geo_enabled" : false,
+        "profile_use_background_image" : true,
+        "screen_name" : "olvijp",
+        "description" : "出版社勤務。 関心分野： 第二言語習得 / 心理言語学 / 統計学 / ロボット / 人工知能 / ゲーム開発 / バーチャルリアリティ / 日本語教育 / 自然言語処理 / 社会哲学 / ホルモン / 焼肉 / 馬刺し / ジンギスカン / 牡蠣 / 麻辣火鍋",
+        "notifications" : false,
+        "contributors_enabled" : false,
+        "has_extended_profile" : true,
+        "followers_count" : 902.0,
+        "verified" : false,
+        "location" : "東京六本木",
+        "created_at" : "Tue Jun 12 08:57:59 +0000 2007",
+        "follow_request_sent" : false,
+        "id_str" : "6762192",
+        "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_text_color" : "000000",
+        "translator_type" : "none"
+      },
+      "possibly_sensitive_appealable" : false,
+      "coordinates" : null,
+      "favorite_count" : 10.0,
+      "possibly_sensitive" : false,
+      "created_at" : "Sat Feb 18 01:08:23 +0000 2017",
+      "contributors" : null,
+      "in_reply_to_user_id_str" : null,
+      "id_str" : "832758628465594368",
+      "truncated" : false,
+      "in_reply_to_status_id_str" : null
+    },
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Feb 18 04:25:53 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832808331215384576",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  }
+]
+
