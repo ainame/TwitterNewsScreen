@@ -16,6 +16,9 @@
 		BD1B550F1E57E38000283569 /* TwitterNewsScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B550E1E57E38000283569 /* TwitterNewsScreenUITests.swift */; };
 		BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B55201E57E6AA00283569 /* TwitterClient.swift */; };
 		BD1B55241E57E8A500283569 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55231E57E8A500283569 /* SwifteriOS.framework */; };
+		BD1B55271E57E9CC00283569 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55261E57E9CC00283569 /* Accounts.framework */; };
+		BD1B55291E57E9D300283569 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55281E57E9D300283569 /* Social.framework */; };
+		BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B552C1E57EB4500283569 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		BD1B55101E57E38000283569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1B55201E57E6AA00283569 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
 		BD1B55231E57E8A500283569 /* SwifteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwifteriOS.framework; path = Carthage/Build/iOS/SwifteriOS.framework; sourceTree = "<group>"; };
+		BD1B55261E57E9CC00283569 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BD1B55281E57E9D300283569 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BD1B552C1E57EB4500283569 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */,
+				BD1B55291E57E9D300283569 /* Social.framework in Frameworks */,
+				BD1B55271E57E9CC00283569 /* Accounts.framework in Frameworks */,
 				BD1B55241E57E8A500283569 /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +152,9 @@
 		BD1B55221E57E8A500283569 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD1B552C1E57EB4500283569 /* RxSwift.framework */,
+				BD1B55281E57E9D300283569 /* Social.framework */,
+				BD1B55261E57E9CC00283569 /* Accounts.framework */,
 				BD1B55231E57E8A500283569 /* SwifteriOS.framework */,
 			);
 			name = Frameworks;
@@ -289,6 +301,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Swifter.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
 			outputPaths = (
 			);
