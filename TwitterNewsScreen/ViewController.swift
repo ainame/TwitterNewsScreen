@@ -10,31 +10,22 @@ import UIKit
 import RxSwift
 import RxCocoa
 import Accounts
-import SwifteriOS
 
 class ViewController: UIViewController {
     @IBOutlet weak var authButton: UIButton!
     private let disposeBag = DisposeBag()
-    private var client: TwitterClient?
+    private let viewModel = TweetSearcherViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         authButton.rx.controlEvent(.touchUpInside)
-            .flatMap { TwitterAccountRequester.request() }
-            .flatMap { (accounts: [ACAccount]) -> Observable<[TwitterStatus]> in
-                let client = TwitterClient(account: accounts.first!)
-                return client.timeline()
-            }
-            .subscribe { event in
-                switch event {
-                case .next(let json):
-                    print(json)
-                case .completed:
-                    break
-                case .error(let error):
-                    print(error)
-                }
-            }
+            .asObservable()
+            .flatMap { _ in self.viewModel.search(for: "どらえもん") }
+            .subscribe(onNext: { results in
+                print(results)
+            }, onError: { error in
+                print(error)
+            })
             .addDisposableTo(disposeBag)
     }
 
