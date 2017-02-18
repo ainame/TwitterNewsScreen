@@ -19,6 +19,7 @@
 		BD1B55271E57E9CC00283569 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55261E57E9CC00283569 /* Accounts.framework */; };
 		BD1B55291E57E9D300283569 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55281E57E9D300283569 /* Social.framework */; };
 		BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B552C1E57EB4500283569 /* RxSwift.framework */; };
+		BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BD1B55261E57E9CC00283569 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BD1B55281E57E9D300283569 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BD1B552C1E57EB4500283569 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccountRequester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		BD1B551F1E57E69600283569 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */,
 				BD1B55201E57E6AA00283569 /* TwitterClient.swift */,
 			);
 			path = Twitter;
@@ -318,6 +321,7 @@
 			files = (
 				BD1B54F11E57E38000283569 /* ViewController.swift in Sources */,
 				BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */,
+				BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */,
 				BD1B54EF1E57E38000283569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
