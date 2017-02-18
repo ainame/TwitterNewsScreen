@@ -1,0 +1,2706 @@
+[
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "lang" : "tl",
+    "place" : {
+      "contained_within" : [
+
+      ],
+      "name" : "Shibuya-ku",
+      "place_type" : "city",
+      "attributes" : {
+
+      },
+      "id" : "f7c22e0cf7b3af2b",
+      "full_name" : "Shibuya-ku, Tokyo",
+      "country_code" : "JP",
+      "bounding_box" : {
+        "type" : "Polygon",
+        "coordinates" : [
+          [
+            [
+              139.661368,
+              35.641564
+            ],
+            [
+              139.723884,
+              35.641564
+            ],
+            [
+              139.723884,
+              35.692138
+            ],
+            [
+              139.661368,
+              35.692138
+            ]
+          ]
+        ]
+      },
+      "url" : "https://api.twitter.com/1.1/geo/id/f7c22e0cf7b3af2b.json",
+      "country" : "Japan"
+    },
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32817594570732e+17,
+    "retweeted" : false,
+    "text" : "testdayo https://t.co/QVTJyebOKN",
+    "entities" : {
+      "hashtags" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "media" : [
+        {
+          "media_url_https" : "https://pbs.twimg.com/media/C47DLU3UYAA6rCf.jpg",
+          "id" : 8.32817580456829e+17,
+          "expanded_url" : "https://twitter.com/ainame/status/832817594570731520/photo/1",
+          "media_url" : "http://pbs.twimg.com/media/C47DLU3UYAA6rCf.jpg",
+          "id_str" : "832817580456828928",
+          "display_url" : "pic.twitter.com/QVTJyebOKN",
+          "type" : "photo",
+          "sizes" : {
+            "medium" : {
+              "resize" : "fit",
+              "h" : 1200.0,
+              "w" : 900.0
+            },
+            "small" : {
+              "resize" : "fit",
+              "h" : 680.0,
+              "w" : 510.0
+            },
+            "thumb" : {
+              "resize" : "crop",
+              "h" : 150.0,
+              "w" : 150.0
+            },
+            "large" : {
+              "resize" : "fit",
+              "h" : 2048.0,
+              "w" : 1536.0
+            }
+          },
+          "url" : "https://t.co/QVTJyebOKN",
+          "indices" : [
+            9.0,
+            32.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "urls" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "coordinates" : null,
+    "favorite_count" : 2.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Feb 18 05:02:42 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "extended_entities" : {
+      "media" : [
+        {
+          "media_url_https" : "https://pbs.twimg.com/media/C47DLU3UYAA6rCf.jpg",
+          "id" : 8.32817580456829e+17,
+          "expanded_url" : "https://twitter.com/ainame/status/832817594570731520/photo/1",
+          "media_url" : "http://pbs.twimg.com/media/C47DLU3UYAA6rCf.jpg",
+          "id_str" : "832817580456828928",
+          "display_url" : "pic.twitter.com/QVTJyebOKN",
+          "type" : "photo",
+          "sizes" : {
+            "medium" : {
+              "resize" : "fit",
+              "h" : 1200.0,
+              "w" : 900.0
+            },
+            "small" : {
+              "resize" : "fit",
+              "h" : 680.0,
+              "w" : 510.0
+            },
+            "thumb" : {
+              "resize" : "crop",
+              "h" : 150.0,
+              "w" : 150.0
+            },
+            "large" : {
+              "resize" : "fit",
+              "h" : 2048.0,
+              "w" : 1536.0
+            }
+          },
+          "url" : "https://t.co/QVTJyebOKN",
+          "indices" : [
+            9.0,
+            32.0
+          ]
+        },
+        {
+          "media_url_https" : "https://pbs.twimg.com/media/C47DLU1UEAA-VX_.jpg",
+          "id" : 8.3281758044842e+17,
+          "expanded_url" : "https://twitter.com/ainame/status/832817594570731520/photo/1",
+          "media_url" : "http://pbs.twimg.com/media/C47DLU1UEAA-VX_.jpg",
+          "id_str" : "832817580448419840",
+          "display_url" : "pic.twitter.com/QVTJyebOKN",
+          "type" : "photo",
+          "sizes" : {
+            "medium" : {
+              "resize" : "fit",
+              "h" : 1200.0,
+              "w" : 900.0
+            },
+            "small" : {
+              "resize" : "fit",
+              "h" : 680.0,
+              "w" : 510.0
+            },
+            "thumb" : {
+              "resize" : "crop",
+              "h" : 150.0,
+              "w" : 150.0
+            },
+            "large" : {
+              "resize" : "fit",
+              "h" : 2048.0,
+              "w" : 1536.0
+            }
+          },
+          "url" : "https://t.co/QVTJyebOKN",
+          "indices" : [
+            9.0,
+            32.0
+          ]
+        },
+        {
+          "media_url_https" : "https://pbs.twimg.com/media/C47DLVQUMAAEeD5.jpg",
+          "id" : 8.32817580561674e+17,
+          "expanded_url" : "https://twitter.com/ainame/status/832817594570731520/photo/1",
+          "media_url" : "http://pbs.twimg.com/media/C47DLVQUMAAEeD5.jpg",
+          "id_str" : "832817580561674240",
+          "display_url" : "pic.twitter.com/QVTJyebOKN",
+          "type" : "photo",
+          "sizes" : {
+            "medium" : {
+              "resize" : "fit",
+              "h" : 900.0,
+              "w" : 1200.0
+            },
+            "small" : {
+              "resize" : "fit",
+              "h" : 510.0,
+              "w" : 680.0
+            },
+            "thumb" : {
+              "resize" : "crop",
+              "h" : 150.0,
+              "w" : 150.0
+            },
+            "large" : {
+              "resize" : "fit",
+              "h" : 1536.0,
+              "w" : 2048.0
+            }
+          },
+          "url" : "https://t.co/QVTJyebOKN",
+          "indices" : [
+            9.0,
+            32.0
+          ]
+        },
+        {
+          "media_url_https" : "https://pbs.twimg.com/media/C47DLWXUcAE8HKi.jpg",
+          "id" : 8.32817580859486e+17,
+          "expanded_url" : "https://twitter.com/ainame/status/832817594570731520/photo/1",
+          "media_url" : "http://pbs.twimg.com/media/C47DLWXUcAE8HKi.jpg",
+          "id_str" : "832817580859486209",
+          "display_url" : "pic.twitter.com/QVTJyebOKN",
+          "type" : "photo",
+          "sizes" : {
+            "medium" : {
+              "resize" : "fit",
+              "h" : 1200.0,
+              "w" : 900.0
+            },
+            "small" : {
+              "resize" : "fit",
+              "h" : 680.0,
+              "w" : 510.0
+            },
+            "thumb" : {
+              "resize" : "crop",
+              "h" : 150.0,
+              "w" : 150.0
+            },
+            "large" : {
+              "resize" : "fit",
+              "h" : 2048.0,
+              "w" : 1536.0
+            }
+          },
+          "url" : "https://t.co/QVTJyebOKN",
+          "indices" : [
+            9.0,
+            32.0
+          ]
+        }
+      ]
+    },
+    "id_str" : "832817594570731520",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 1.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32781222690427e+17,
+    "retweeted" : false,
+    "text" : "最近のRxSwift、バイナリが配布されていた",
+    "created_at" : "Sat Feb 18 02:38:10 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832781222690426880",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 1.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.3276840297642e+17,
+    "retweeted" : false,
+    "text" : "Swiftでアプリ作るぞー",
+    "created_at" : "Sat Feb 18 01:47:14 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832768402976419845",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "is_quote_status" : false,
+    "lang" : "en",
+    "retweeted_status" : {
+      "in_reply_to_status_id" : null,
+      "user" : {
+        "time_zone" : "Pacific Time (US & Canada)",
+        "protected" : false,
+        "profile_sidebar_border_color" : "000000",
+        "profile_link_color" : "FF691F",
+        "lang" : "en",
+        "favourites_count" : 0.0,
+        "default_profile_image" : false,
+        "profile_background_color" : "000000",
+        "profile_sidebar_fill_color" : "000000",
+        "profile_background_tile" : false,
+        "is_translator" : false,
+        "is_translation_enabled" : false,
+        "profile_image_url_https" : "https://pbs.twimg.com/profile_images/704380959219589120/t4-DCoN9_normal.jpg",
+        "friends_count" : 5.0,
+        "id" : 7.04378433523065e+17,
+        "entities" : {
+          "description" : {
+            "urls" : [
+
+            ]
+          },
+          "url" : {
+            "urls" : [
+              {
+                "display_url" : "isocpp.org",
+                "indices" : [
+                  0.0,
+                  23.0
+                ],
+                "expanded_url" : "http://isocpp.org",
+                "url" : "https://t.co/vgNGOBNVNs"
+              }
+            ]
+          }
+        },
+        "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "utc_offset" : -28800.0,
+        "profile_image_url" : "http://pbs.twimg.com/profile_images/704380959219589120/t4-DCoN9_normal.jpg",
+        "statuses_count" : 107.0,
+        "default_profile" : false,
+        "following" : true,
+        "url" : "https://t.co/vgNGOBNVNs",
+        "listed_count" : 52.0,
+        "name" : "ISO Trump++",
+        "geo_enabled" : false,
+        "profile_use_background_image" : false,
+        "screen_name" : "isotrumpp",
+        "description" : "Make C++ operator &gt; again",
+        "notifications" : false,
+        "contributors_enabled" : false,
+        "has_extended_profile" : true,
+        "followers_count" : 4582.0,
+        "verified" : false,
+        "location" : "ISO",
+        "created_at" : "Mon Feb 29 18:51:20 +0000 2016",
+        "follow_request_sent" : false,
+        "id_str" : "704378433523064833",
+        "profile_banner_url" : "https://pbs.twimg.com/profile_banners/704378433523064833/1459216260",
+        "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_text_color" : "000000",
+        "translator_type" : "none"
+      },
+      "source" : "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+      "is_quote_status" : false,
+      "lang" : "en",
+      "place" : null,
+      "coordinates" : null,
+      "favorite_count" : 1102.0,
+      "retweet_count" : 1048.0,
+      "favorited" : true,
+      "in_reply_to_screen_name" : null,
+      "id" : 7.04382042327421e+17,
+      "retweeted" : true,
+      "text" : "I will build a great std::barrier to keep JavaScript programmers out, and I will make @BrendanEich pay for that std::barrier.",
+      "created_at" : "Mon Feb 29 19:05:40 +0000 2016",
+      "in_reply_to_user_id_str" : null,
+      "id_str" : "704382042327420930",
+      "truncated" : false,
+      "entities" : {
+        "urls" : [
+
+        ],
+        "user_mentions" : [
+          {
+            "id_str" : "9533042",
+            "name" : "BrendanEich",
+            "id" : 9533042.0,
+            "screen_name" : "BrendanEich",
+            "indices" : [
+              86.0,
+              98.0
+            ]
+          }
+        ],
+        "symbols" : [
+
+        ],
+        "hashtags" : [
+
+        ]
+      },
+      "geo" : null,
+      "in_reply_to_user_id" : null,
+      "contributors" : null,
+      "in_reply_to_status_id_str" : null
+    },
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 1048.0,
+    "favorited" : true,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32531616081678e+17,
+    "retweeted" : true,
+    "text" : "RT @isotrumpp: I will build a great std::barrier to keep JavaScript programmers out, and I will make @BrendanEich pay for that std::barrier.",
+    "created_at" : "Fri Feb 17 10:06:19 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832531616081678336",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+        {
+          "id_str" : "704378433523064833",
+          "name" : "ISO Trump++",
+          "id" : 7.04378433523065e+17,
+          "screen_name" : "isotrumpp",
+          "indices" : [
+            3.0,
+            13.0
+          ]
+        },
+        {
+          "id_str" : "9533042",
+          "name" : "BrendanEich",
+          "id" : 9533042.0,
+          "screen_name" : "BrendanEich",
+          "indices" : [
+            101.0,
+            113.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 1.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32526805512835e+17,
+    "retweeted" : false,
+    "text" : "体力が切れた",
+    "created_at" : "Fri Feb 17 09:47:12 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832526805512835072",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://www.hatena.ne.jp/guide/twitter" rel="nofollow">Hatena</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32522715584016e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "9件のコメント https://t.co/9ClSpuLLKS “『Swift実践入門』2月7日発売 - クックパッド開発者ブログ” https://t.co/A6pD3jFi2e",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832522715584016384",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "b.hatena.ne.jp/entry/techlife…",
+          "indices" : [
+            8.0,
+            31.0
+          ],
+          "expanded_url" : "http://b.hatena.ne.jp/entry/techlife.cookpad.com/entry/2017/02/07/200052#tw?u=ainame",
+          "url" : "https://t.co/9ClSpuLLKS"
+        },
+        {
+          "display_url" : "htn.to/cQAUM3",
+          "indices" : [
+            67.0,
+            90.0
+          ],
+          "expanded_url" : "http://htn.to/cQAUM3",
+          "url" : "https://t.co/A6pD3jFi2e"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Fri Feb 17 09:30:57 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://www.hatena.ne.jp/guide/twitter" rel="nofollow">Hatena</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32510069916852e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "5件のコメント https://t.co/pQEVVOUuVa “サーバーレスアーキテクチャなエラートラッキングツール faultline - Copy/Cut/Paste/Hatena” https://t.co/zU9D28Lo1D",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832510069916852225",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "b.hatena.ne.jp/entry/k1low.ha…",
+          "indices" : [
+            8.0,
+            31.0
+          ],
+          "expanded_url" : "http://b.hatena.ne.jp/entry/k1low.hatenablog.com/entry/faultline#tw?u=ainame",
+          "url" : "https://t.co/pQEVVOUuVa"
+        },
+        {
+          "display_url" : "htn.to/Gokj9h",
+          "indices" : [
+            95.0,
+            118.0
+          ],
+          "expanded_url" : "http://htn.to/Gokj9h",
+          "url" : "https://t.co/zU9D28Lo1D"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Fri Feb 17 08:40:42 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : {
+      "contained_within" : [
+
+      ],
+      "name" : "Meguro-ku",
+      "place_type" : "city",
+      "attributes" : {
+
+      },
+      "id" : "451617631d24d98c",
+      "full_name" : "Meguro-ku, Tokyo",
+      "country_code" : "JP",
+      "bounding_box" : {
+        "type" : "Polygon",
+        "coordinates" : [
+          [
+            [
+              139.661641,
+              35.600599
+            ],
+            [
+              139.717749,
+              35.600599
+            ],
+            [
+              139.717749,
+              35.664149
+            ],
+            [
+              139.661641,
+              35.664149
+            ]
+          ]
+        ]
+      },
+      "url" : "https://api.twitter.com/1.1/geo/id/451617631d24d98c.json",
+      "country" : "Japan"
+    },
+    "coordinates" : null,
+    "favorite_count" : 3.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32439000736489e+17,
+    "retweeted" : false,
+    "text" : "i am robot and proudが流れるデブサミ",
+    "created_at" : "Fri Feb 17 03:58:18 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832439000736489472",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "is_quote_status" : false,
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "lang" : "ja",
+    "place" : {
+      "contained_within" : [
+
+      ],
+      "name" : "Meguro-ku",
+      "place_type" : "city",
+      "attributes" : {
+
+      },
+      "id" : "451617631d24d98c",
+      "full_name" : "Meguro-ku, Tokyo",
+      "country_code" : "JP",
+      "bounding_box" : {
+        "type" : "Polygon",
+        "coordinates" : [
+          [
+            [
+              139.661641,
+              35.600599
+            ],
+            [
+              139.717749,
+              35.600599
+            ],
+            [
+              139.717749,
+              35.664149
+            ],
+            [
+              139.661641,
+              35.664149
+            ]
+          ]
+        ]
+      },
+      "url" : "https://api.twitter.com/1.1/geo/id/451617631d24d98c.json",
+      "country" : "Japan"
+    },
+    "retweet_count" : 1.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32438184260702e+17,
+    "retweeted" : false,
+    "text" : "緊張 https://t.co/6i37d9tObz",
+    "entities" : {
+      "hashtags" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "media" : [
+        {
+          "media_url_https" : "https://pbs.twimg.com/media/C41qG2iUkAEMXOl.jpg",
+          "id" : 8.32438172084638e+17,
+          "expanded_url" : "https://twitter.com/ainame/status/832438184260702208/photo/1",
+          "media_url" : "http://pbs.twimg.com/media/C41qG2iUkAEMXOl.jpg",
+          "id_str" : "832438172084637697",
+          "display_url" : "pic.twitter.com/6i37d9tObz",
+          "type" : "photo",
+          "sizes" : {
+            "medium" : {
+              "resize" : "fit",
+              "h" : 900.0,
+              "w" : 1200.0
+            },
+            "small" : {
+              "resize" : "fit",
+              "h" : 510.0,
+              "w" : 680.0
+            },
+            "thumb" : {
+              "resize" : "crop",
+              "h" : 150.0,
+              "w" : 150.0
+            },
+            "large" : {
+              "resize" : "fit",
+              "h" : 1536.0,
+              "w" : 2048.0
+            }
+          },
+          "url" : "https://t.co/6i37d9tObz",
+          "indices" : [
+            3.0,
+            26.0
+          ]
+        }
+      ],
+      "symbols" : [
+
+      ],
+      "urls" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "coordinates" : null,
+    "favorite_count" : 8.0,
+    "possibly_sensitive" : false,
+    "created_at" : "Fri Feb 17 03:55:03 +0000 2017",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "extended_entities" : {
+      "media" : [
+        {
+          "media_url_https" : "https://pbs.twimg.com/media/C41qG2iUkAEMXOl.jpg",
+          "id" : 8.32438172084638e+17,
+          "expanded_url" : "https://twitter.com/ainame/status/832438184260702208/photo/1",
+          "media_url" : "http://pbs.twimg.com/media/C41qG2iUkAEMXOl.jpg",
+          "id_str" : "832438172084637697",
+          "display_url" : "pic.twitter.com/6i37d9tObz",
+          "type" : "photo",
+          "sizes" : {
+            "medium" : {
+              "resize" : "fit",
+              "h" : 900.0,
+              "w" : 1200.0
+            },
+            "small" : {
+              "resize" : "fit",
+              "h" : 510.0,
+              "w" : 680.0
+            },
+            "thumb" : {
+              "resize" : "crop",
+              "h" : 150.0,
+              "w" : 150.0
+            },
+            "large" : {
+              "resize" : "fit",
+              "h" : 1536.0,
+              "w" : 2048.0
+            }
+          },
+          "url" : "https://t.co/6i37d9tObz",
+          "indices" : [
+            3.0,
+            26.0
+          ]
+        }
+      ]
+    },
+    "id_str" : "832438184260702208",
+    "truncated" : false,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://www.hatena.ne.jp/guide/twitter" rel="nofollow">Hatena</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32416872519786e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "1件のコメント https://t.co/l7v8LbZZFv “新しいGoogle翻訳とスプレッドシートを使って国際会議への執筆をスマートにするついでに英作文力を高速に身につけるハック | aki's right brain” https://t.co/fJj1BqIIhM",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832416872519786501",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "b.hatena.ne.jp/entry/aki.shir…",
+          "indices" : [
+            8.0,
+            31.0
+          ],
+          "expanded_url" : "http://b.hatena.ne.jp/entry/aki.shirai.as/2017/02/google-translate-and-spreadsheet-for-international-submission/#tw?u=ainame",
+          "url" : "https://t.co/l7v8LbZZFv"
+        },
+        {
+          "display_url" : "htn.to/V2DenyB",
+          "indices" : [
+            115.0,
+            138.0
+          ],
+          "expanded_url" : "http://htn.to/V2DenyB",
+          "url" : "https://t.co/fJj1BqIIhM"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Fri Feb 17 02:30:22 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://www.hatena.ne.jp/guide/twitter" rel="nofollow">Hatena</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.3228980002773e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "1件のコメント https://t.co/87KeuGiJsN “to 不定詞と from doing の関係” https://t.co/ly8RQ2GHlP",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832289800027729920",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "b.hatena.ne.jp/entry/www1.odn…",
+          "indices" : [
+            8.0,
+            31.0
+          ],
+          "expanded_url" : "http://b.hatena.ne.jp/entry/www1.odn.ne.jp/xenom/zenchishi.box/zenchishi2.html#tw?u=ainame",
+          "url" : "https://t.co/87KeuGiJsN"
+        },
+        {
+          "display_url" : "htn.to/kYaMedm",
+          "indices" : [
+            57.0,
+            80.0
+          ],
+          "expanded_url" : "http://htn.to/kYaMedm",
+          "url" : "https://t.co/ly8RQ2GHlP"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Thu Feb 16 18:05:26 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 3.0,
+    "retweet_count" : 1.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32270071141511e+17,
+    "retweeted" : false,
+    "text" : "アイドルのジャンルが広がりすぎて今回の事件でアサシンアイドルというジャンルが確立された",
+    "created_at" : "Thu Feb 16 16:47:02 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832270071141511168",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://www.hatena.ne.jp/guide/twitter" rel="nofollow">Hatena</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32269217202205e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "闇だ / 他75コメント https://t.co/VVKJVyqHma “逮捕の女「殺した相手、誰か知らなかった」｜日テレNEWS24” https://t.co/JzpvK3Jj9Z",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832269217202204672",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "b.hatena.ne.jp/entry/www.news…",
+          "indices" : [
+            13.0,
+            36.0
+          ],
+          "expanded_url" : "http://b.hatena.ne.jp/entry/www.news24.jp/articles/2017/02/16/10354282.html#tw?u=ainame",
+          "url" : "https://t.co/VVKJVyqHma"
+        },
+        {
+          "display_url" : "htn.to/3G42EpXU",
+          "indices" : [
+            70.0,
+            93.0
+          ],
+          "expanded_url" : "http://htn.to/3G42EpXU",
+          "url" : "https://t.co/JzpvK3Jj9Z"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Thu Feb 16 16:43:38 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://www.hatena.ne.jp/guide/twitter" rel="nofollow">Hatena</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 3.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32266848288674e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "渋谷駅の改修、ブルーグリーンデプロイメントにしてほしい / 他3コメント https://t.co/wiQNtFG3Ab “渋谷駅東口の歩道橋、架け替えへ　約30回の道路通行止めを計画（1/2） | 乗りものニュース” https://t.co/G17ydHZnQ0",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832266848288673793",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "b.hatena.ne.jp/entry/s/traffi…",
+          "indices" : [
+            37.0,
+            60.0
+          ],
+          "expanded_url" : "http://b.hatena.ne.jp/entry/s/trafficnews.jp/post/64986/#tw?u=ainame",
+          "url" : "https://t.co/wiQNtFG3Ab"
+        },
+        {
+          "display_url" : "htn.to/L877KY",
+          "indices" : [
+            110.0,
+            133.0
+          ],
+          "expanded_url" : "http://htn.to/L877KY",
+          "url" : "https://t.co/G17ydHZnQ0"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Thu Feb 16 16:34:14 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 3.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32266290890813e+17,
+    "retweeted" : false,
+    "text" : "知らないサイト開いただけで通知の許可ダイアログ開かれるのかなりストレスなので自分で好きな時に購読ボタン押せるようにしてほしい",
+    "created_at" : "Thu Feb 16 16:32:01 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832266290890813440",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 2.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32266079791575e+17,
+    "retweeted" : false,
+    "text" : "ニュースサイト、Push通知実装してきてRSS要らない時代になってきたか",
+    "created_at" : "Thu Feb 16 16:31:10 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832266079791575040",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32263806722011e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "明日話してきます https://t.co/InodVpu5Bu",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832263806722011137",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "event.shoeisha.jp/devsumi/201702…",
+          "indices" : [
+            9.0,
+            32.0
+          ],
+          "expanded_url" : "http://event.shoeisha.jp/devsumi/20170216/session/1281/",
+          "url" : "https://t.co/InodVpu5Bu"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Thu Feb 16 16:22:08 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : {
+      "contained_within" : [
+
+      ],
+      "name" : "Shibuya-ku",
+      "place_type" : "city",
+      "attributes" : {
+
+      },
+      "id" : "f7c22e0cf7b3af2b",
+      "full_name" : "Shibuya-ku, Tokyo",
+      "country_code" : "JP",
+      "bounding_box" : {
+        "type" : "Polygon",
+        "coordinates" : [
+          [
+            [
+              139.661368,
+              35.641564
+            ],
+            [
+              139.723884,
+              35.641564
+            ],
+            [
+              139.723884,
+              35.692138
+            ],
+            [
+              139.661368,
+              35.692138
+            ]
+          ]
+        ]
+      },
+      "url" : "https://api.twitter.com/1.1/geo/id/f7c22e0cf7b3af2b.json",
+      "country" : "Japan"
+    },
+    "coordinates" : null,
+    "favorite_count" : 3.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.3219343544028e+17,
+    "retweeted" : false,
+    "text" : "カレンダーが空白であればあるほど幸せなのかもしれないと思い始めてきた",
+    "created_at" : "Thu Feb 16 11:42:31 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832193435440279552",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  },
+  {
+    "in_reply_to_status_id_str" : null,
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32176971979256e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "生誕30周年「ファイナルファンタジー」コラボ開催！クラウド、スコール、ライトニング、バッツ、ヴァンがモンストに登場京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32176971979256e+17,
+    "retweeted" : false,
+    "possibly_sensitive" : false,
+    "text" : "生誕30周年「ファイナルファンタジー」コラボ開催！クラウド、スコール、ライトニング、バッツ、ヴァンがモンストに登場\357\274！コラボクエストにセフィロス、アルティミシア出現！あの闘いが蘇る！共に闘おう！　#モンスト #FFモンスト https://t.co/73i3kMedEq",
+    "contributors" : null,
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832176971979255808",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+        {
+          "display_url" : "xfl.ag/2jTy53T",
+          "indices" : [
+            111.0,
+            134.0
+          ],
+          "expanded_url" : "http://xfl.ag/2jTy53T",
+          "url" : "https://t.co/73i3kMedEq"
+        }
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+        {
+          "indices" : [
+            97.0,
+            102.0
+          ],
+          "text" : "モンスト"
+        },
+        {
+          "indices" : [
+            103.0,
+            110.0
+          ],
+          "text" : "FFモンスト"
+        }
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "created_at" : "Thu Feb 16 10:37:05 +0000 2017"
+  },
+  {
+    "in_reply_to_status_id" : null,
+    "user" : {
+      "time_zone" : "Tokyo",
+      "protected" : false,
+      "profile_sidebar_border_color" : "5ED4DC",
+      "profile_link_color" : "89C9FA",
+      "lang" : "en",
+      "favourites_count" : 55236.0,
+      "default_profile_image" : false,
+      "profile_background_color" : "0099B9",
+      "profile_sidebar_fill_color" : "95E8EC",
+      "profile_background_tile" : true,
+      "is_translator" : false,
+      "is_translation_enabled" : true,
+      "profile_image_url_https" : "https://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "friends_count" : 3550.0,
+      "id" : 15647680.0,
+      "entities" : {
+        "description" : {
+          "urls" : [
+
+          ]
+        },
+        "url" : {
+          "urls" : [
+            {
+              "display_url" : "github.com/ainame",
+              "indices" : [
+                0.0,
+                23.0
+              ],
+              "expanded_url" : "https://github.com/ainame",
+              "url" : "https://t.co/kVkK0m4TZQ"
+            }
+          ]
+        }
+      },
+      "profile_background_image_url_https" : "https://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "utc_offset" : 32400.0,
+      "profile_image_url" : "http://pbs.twimg.com/profile_images/817091702452166656/AR7tkBAL_normal.jpg",
+      "statuses_count" : 189463.0,
+      "default_profile" : false,
+      "following" : false,
+      "url" : "https://t.co/kVkK0m4TZQ",
+      "listed_count" : 287.0,
+      "name" : "s10i",
+      "geo_enabled" : true,
+      "profile_use_background_image" : true,
+      "screen_name" : "ainame",
+      "description" : "スマホアプリ・サーバーのエンジニアです。ヨーロッパに移住予定です。",
+      "notifications" : false,
+      "contributors_enabled" : false,
+      "has_extended_profile" : false,
+      "followers_count" : 3078.0,
+      "verified" : false,
+      "location" : "東京 渋谷区",
+      "created_at" : "Tue Jul 29 16:32:55 +0000 2008",
+      "follow_request_sent" : false,
+      "id_str" : "15647680",
+      "profile_banner_url" : "https://pbs.twimg.com/profile_banners/15647680/1427470752",
+      "profile_background_image_url" : "http://pbs.twimg.com/profile_background_images/290238778/twitter_wallpaper.jpg",
+      "profile_text_color" : "3C3940",
+      "translator_type" : "regular"
+    },
+    "source" : "<a href="http://sites.google.com/site/yorufukurou/" rel="nofollow">YoruFukurou</a>",
+    "is_quote_status" : false,
+    "lang" : "ja",
+    "place" : null,
+    "coordinates" : null,
+    "favorite_count" : 0.0,
+    "retweet_count" : 0.0,
+    "favorited" : false,
+    "in_reply_to_screen_name" : null,
+    "id" : 8.32175338264224e+17,
+    "retweeted" : false,
+    "text" : "Chime、デザインまぁまぁモダンだしスクリーンシェアとビデオ通話普通に出来て便利である。",
+    "created_at" : "Thu Feb 16 10:30:36 +0000 2017",
+    "in_reply_to_user_id_str" : null,
+    "id_str" : "832175338264223745",
+    "truncated" : false,
+    "entities" : {
+      "urls" : [
+
+      ],
+      "user_mentions" : [
+
+      ],
+      "symbols" : [
+
+      ],
+      "hashtags" : [
+
+      ]
+    },
+    "geo" : null,
+    "in_reply_to_user_id" : null,
+    "contributors" : null,
+    "in_reply_to_status_id_str" : null
+  }
+]
+

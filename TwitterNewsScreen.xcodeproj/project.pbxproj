@@ -21,6 +21,9 @@
 		BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B552C1E57EB4500283569 /* RxSwift.framework */; };
 		BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */; };
 		BD75B17B1E57F69A0064D8A6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */; };
+		BD75B17D1E5807F40064D8A6 /* TwitterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B17C1E5807F40064D8A6 /* TwitterStatus.swift */; };
+		BD75B17F1E580A830064D8A6 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B17E1E580A830064D8A6 /* TwitterUser.swift */; };
+		BD75B1831E582E360064D8A6 /* TwitterStatusMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B1821E582E360064D8A6 /* TwitterStatusMedia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		BD1B552C1E57EB4500283569 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccountRequester.swift; sourceTree = "<group>"; };
 		BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		BD75B17C1E5807F40064D8A6 /* TwitterStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterStatus.swift; sourceTree = "<group>"; };
+		BD75B17E1E580A830064D8A6 /* TwitterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
+		BD75B1821E582E360064D8A6 /* TwitterStatusMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterStatusMedia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 			children = (
 				BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */,
 				BD1B55201E57E6AA00283569 /* TwitterClient.swift */,
+				BD75B17C1E5807F40064D8A6 /* TwitterStatus.swift */,
+				BD75B17E1E580A830064D8A6 /* TwitterUser.swift */,
+				BD75B1821E582E360064D8A6 /* TwitterStatusMedia.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -304,7 +313,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		BD1B55251E57E8AD00283569 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -315,7 +324,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
@@ -342,8 +351,11 @@
 			files = (
 				BD1B54F11E57E38000283569 /* ViewController.swift in Sources */,
 				BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */,
+				BD75B17F1E580A830064D8A6 /* TwitterUser.swift in Sources */,
+				BD75B17D1E5807F40064D8A6 /* TwitterStatus.swift in Sources */,
 				BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */,
 				BD1B54EF1E57E38000283569 /* AppDelegate.swift in Sources */,
+				BD75B1831E582E360064D8A6 /* TwitterStatusMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

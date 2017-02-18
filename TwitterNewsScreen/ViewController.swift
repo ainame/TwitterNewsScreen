@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         authButton.rx.controlEvent(.touchUpInside)
             .flatMap { TwitterAccountRequester.request() }
-            .flatMap { (accounts: [ACAccount]) -> Observable<JSON> in
+            .flatMap { (accounts: [ACAccount]) -> Observable<[TwitterStatus]> in
                 let client = TwitterClient(account: accounts.first!)
                 return client.timeline()
             }
