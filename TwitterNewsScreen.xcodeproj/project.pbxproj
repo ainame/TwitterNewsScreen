@@ -24,6 +24,8 @@
 		BD75B17D1E5807F40064D8A6 /* TwitterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B17C1E5807F40064D8A6 /* TwitterStatus.swift */; };
 		BD75B17F1E580A830064D8A6 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B17E1E580A830064D8A6 /* TwitterUser.swift */; };
 		BD75B1831E582E360064D8A6 /* TwitterStatusMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B1821E582E360064D8A6 /* TwitterStatusMedia.swift */; };
+		BD75B1851E58316D0064D8A6 /* TwitterSearchMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B1841E58316D0064D8A6 /* TwitterSearchMetadata.swift */; };
+		BD75B1871E5835B40064D8A6 /* TweetSearcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B1861E5835B40064D8A6 /* TweetSearcherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		BD75B17C1E5807F40064D8A6 /* TwitterStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterStatus.swift; sourceTree = "<group>"; };
 		BD75B17E1E580A830064D8A6 /* TwitterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
 		BD75B1821E582E360064D8A6 /* TwitterStatusMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterStatusMedia.swift; sourceTree = "<group>"; };
+		BD75B1841E58316D0064D8A6 /* TwitterSearchMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchMetadata.swift; sourceTree = "<group>"; };
+		BD75B1861E5835B40064D8A6 /* TweetSearcherViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetSearcherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */,
 				BD1B54F21E57E38000283569 /* Main.storyboard */,
 				BD1B54F01E57E38000283569 /* ViewController.swift */,
+				BD75B1861E5835B40064D8A6 /* TweetSearcherViewModel.swift */,
 			);
 			path = TwitterNewsScreen;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				BD75B17C1E5807F40064D8A6 /* TwitterStatus.swift */,
 				BD75B17E1E580A830064D8A6 /* TwitterUser.swift */,
 				BD75B1821E582E360064D8A6 /* TwitterStatusMedia.swift */,
+				BD75B1841E58316D0064D8A6 /* TwitterSearchMetadata.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -313,7 +319,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		BD1B55251E57E8AD00283569 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -324,7 +330,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
@@ -340,7 +346,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nswiftlint autocorrect\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -349,7 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD75B1851E58316D0064D8A6 /* TwitterSearchMetadata.swift in Sources */,
 				BD1B54F11E57E38000283569 /* ViewController.swift in Sources */,
+				BD75B1871E5835B40064D8A6 /* TweetSearcherViewModel.swift in Sources */,
 				BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */,
 				BD75B17F1E580A830064D8A6 /* TwitterUser.swift in Sources */,
 				BD75B17D1E5807F40064D8A6 /* TwitterStatus.swift in Sources */,
