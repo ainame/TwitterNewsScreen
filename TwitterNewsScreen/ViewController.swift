@@ -9,24 +9,31 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import Accounts
 
 class ViewController: UIViewController {
     @IBOutlet weak var authButton: UIButton!
+    @IBOutlet weak var networkStateLabel: UILabel!
+
     private let disposeBag = DisposeBag()
     private let viewModel = TweetSearcherViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        authButton.rx.controlEvent(.touchUpInside)
-            .asObservable()
-            .flatMap { _ in self.viewModel.search(for: "どらえもん") }
-            .subscribe(onNext: { results in
-                print(results)
+
+        authButton.rx.tap.asObservable()
+            .flatMapLatest { self.viewModel.search(for: "この世界の片隅に").catchErrorJustReturn([]) }
+            .subscribe(onNext: { tweets in
+                print(tweets.map { $0.text }.joined())
             }, onError: { error in
                 print(error)
             })
-            .addDisposableTo(disposeBag)
-    }
+            .disposed(by: disposeBag)
 
+        viewModel.networkState
+            .asObservable()
+            .map { $0.rawValue }
+            .asDriver(onErrorJustReturn: "error")
+            .drive(networkStateLabel.rx.text)
+            .disposed(by: disposeBag)
+    }
 }
