@@ -7,17 +7,35 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import Accounts
+import SwifteriOS
 
 class ViewController: UIViewController {
+    @IBOutlet weak var authButton: UIButton!
+    private let disposeBag = DisposeBag()
+    private var client: TwitterClient?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        authButton.rx.controlEvent(.touchUpInside)
+            .flatMap { TwitterAccountRequester.request() }
+            .flatMap { (accounts: [ACAccount]) -> Observable<JSON> in
+                let client = TwitterClient(account: accounts.first!)
+                return client.timeline()
+            }
+            .subscribe { event in
+                switch event {
+                case .next(let json):
+                    print(json)
+                case .completed:
+                    break
+                case .error(let error):
+                    print(error)
+                }
+            }
+            .addDisposableTo(disposeBag)
     }
 
 }
