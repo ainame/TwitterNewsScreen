@@ -199,7 +199,6 @@
 			children = (
 				BD444C961E59A9E800C8F6A7 /* ImageScreen */,
 			);
-			name = Scenes;
 			path = Scenes;
 			sourceTree = "<group>";
 		};
@@ -212,7 +211,6 @@
 				BD6FB1B01E595E77001B17C9 /* ImageScreenViewController.swift */,
 				BD75B1861E5835B40064D8A6 /* TweetSearcherViewModel.swift */,
 			);
-			name = ImageScreen;
 			path = ImageScreen;
 			sourceTree = "<group>";
 		};
