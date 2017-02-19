@@ -24,14 +24,12 @@ class ImageScreenCell: UICollectionViewCell {
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var textLabel: UILabel!
-    @IBOutlet weak var createdAtLabel: UILabel!
 
     func render(for summary: TweetSummaryType?) {
         guard let summary = summary else { return }
         imageView.kf.setImage(with: summary.URL)
         profileImageView.kf.setImage(with: summary.user.profileImageUrl)
-        nameLabel.text = "\(summary.user.name) - (@\(summary.user.screenName))"
+        nameLabel.text = "\(summary.user.name)(@\(summary.user.screenName)) - \("2017.02.15")"
         textLabel.text = summary.text
-        createdAtLabel.text = "2017.02.16"
     }
 }

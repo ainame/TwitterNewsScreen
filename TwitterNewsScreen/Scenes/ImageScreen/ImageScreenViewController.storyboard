@@ -35,7 +35,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageScreenCell" id="CT1-pC-Ofh" customClass="ImageScreenCell" customModule="TwitterNewsScreen" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="35" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="34.666666666666664" width="375" height="667"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -72,19 +72,13 @@
                                                                     <rect key="frame" x="73.666666666666657" y="0.0" width="293.33333333333337" height="134"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" preservesSuperviewLayoutMargins="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZz-0y-NnO">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="293.33333333333331" height="28.333333333333371"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="293.33333333333331" height="40"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttextv" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zlB-Wh-IHe" userLabel="text">
-                                                                            <rect key="frame" x="0.0" y="33.333333333333371" width="293.33333333333331" height="56"/>
-                                                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                            <nil key="highlightedColor"/>
-                                                                        </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="createdAt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VfL-Ll-ogv" userLabel="createdAt">
-                                                                            <rect key="frame" x="0.0" y="94.333333333333371" width="293.33333333333331" height="39.666666666666629"/>
+                                                                            <rect key="frame" x="0.0" y="45" width="293.33333333333331" height="89"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                             <nil key="highlightedColor"/>
@@ -123,7 +117,6 @@
                                         </constraints>
                                         <size key="customSize" width="375" height="667"/>
                                         <connections>
-                                            <outlet property="createdAtLabel" destination="VfL-Ll-ogv" id="9Uj-fE-dcs"/>
                                             <outlet property="imageView" destination="Cya-db-hnx" id="tY9-Rz-yoO"/>
                                             <outlet property="nameLabel" destination="dZz-0y-NnO" id="bvg-2f-4m0"/>
                                             <outlet property="profileImageView" destination="8Iy-Yi-gh3" id="p3o-qy-iK3"/>
