@@ -19,9 +19,11 @@ class ImageScreenViewController: UIViewController {
         super.viewDidLoad()
         setupLayout()
 
-        viewModel.show(forId: "832817594570731520")
+        viewModel.show(forId: "830745950922551296")
             .map { tweet in [tweet, tweet, tweet, tweet, tweet, tweet, tweet] }
-            .bindTo(collectionView.rx.items(cellIdentifier: ImageScreenCell.identifier, cellType: ImageScreenCell.self)) { (_, element, cell) in
+            .bindTo(
+                collectionView.rx.items(cellIdentifier: ImageScreenCell.identifier, cellType: ImageScreenCell.self)
+            ) { (_, element, cell) in
                 let summary = MediaTweetSummarizer.summary(element)
                 cell.render(for: summary)
             }.disposed(by: disposeBag)
