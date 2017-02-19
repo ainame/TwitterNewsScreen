@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 protocol TweetSummaryType {
     var type: Tweet.MediaType { get }

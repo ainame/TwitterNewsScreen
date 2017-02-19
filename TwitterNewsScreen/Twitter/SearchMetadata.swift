@@ -10,8 +10,8 @@ import Foundation
 import Mapper
 
 struct SearchMetadata: Mappable {
-    let maxId: Int
-    let sinceId: Int
+    let maxId: String
+    let sinceId: String
     let refreshURL: String
     let nextResults: String?
     let count: Int
@@ -19,8 +19,8 @@ struct SearchMetadata: Mappable {
     let query: String
 
     init(map: Mapper) throws {
-        try maxId = map.from("max_id")
-        try sinceId = map.from("since_id")
+        try maxId = map.from("max_id_str")
+        try sinceId = map.from("since_id_str")
         try refreshURL = map.from("refresh_url")
         nextResults = map.optionalFrom("next_results")
         try count = map.from("count")

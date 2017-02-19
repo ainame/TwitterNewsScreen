@@ -19,11 +19,15 @@ class ImageScreenViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var closeButton: UIButton!
 
-    let viewModel = TweetSearcherViewModel()
+    let viewModel = TweetSearcherViewModel(store: TweetStore())
     let disposeBag = DisposeBag()
 
     var launchOption: LaunchOption?
-    var timer: Timer?
+    var query: ((SearchMetadata?) -> Observable<([Tweet], SearchMetadata)>?)?
+    var lastSearchMetadata: SearchMetadata?
+
+    var pagingTimer: Timer?
+    var pollingTimer: Timer?
     var currentIndexPath: IndexPath? {
         return self.collectionView.indexPathsForVisibleItems.first
     }
@@ -32,26 +36,33 @@ class ImageScreenViewController: UIViewController {
         super.viewDidLoad()
         setupLayout()
 
-        timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { [weak self] _ in
-            self?.pagingToNext()
+        pollingTimer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { [weak self] _ in
+            self?.pollingTweets()
         }
 
-        guard case let .keyword(keyword) = launchOption! else { return }
-        viewModel
-            //.show(forId: "830745950922551296")
-            //.map { tweet in [tweet, tweet, tweet, tweet, tweet, tweet, tweet] }
-            .search(for: keyword)
-            .do(onNext: { [weak self] _ in self?.timer?.fire() })
+        query = { [weak self, launchOption] searchMetadata in
+            guard let launchOption = launchOption else { fatalError("must given launch option") }
+            switch launchOption {
+            case .keyword(let keyword):
+                return self?.viewModel.search(for: keyword, with: searchMetadata)
+            case .screenName(let screenName):
+                return self?.viewModel.search(for: screenName, with: searchMetadata)
+            }
+        }
+
+        viewModel.tweetStream.asObservable()
             .bindTo(
                 collectionView.rx.items(cellIdentifier: ImageScreenCell.identifier, cellType: ImageScreenCell.self)
             ) { (_, element, cell) in
                 let summary = MediaTweetSummarizer.summary(element)
                 cell.render(for: summary)
             }.disposed(by: disposeBag)
-        
+
         closeButton.rx.tap.asObservable()
             .subscribe(onNext: { [weak self] in self?.dismiss(animated: true, completion: nil)})
             .disposed(by: disposeBag)
+
+        pollingTimer?.fire()
     }
 
     override func viewWillLayoutSubviews() {
@@ -79,5 +90,20 @@ class ImageScreenViewController: UIViewController {
             let nextIndexPath = IndexPath(item: currentIndexPath.item + 1, section: currentIndexPath.section)
             self.collectionView.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true)
         }
+    }
+
+    func pollingTweets() {
+        print("polling")
+        pagingTimer?.invalidate()
+        pagingTimer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { [weak self] _ in
+            self?.pagingToNext()
+        }
+        guard let query = query else { fatalError() }
+        query(lastSearchMetadata)!
+            .do(onNext: { [weak self] _, searchMetadata in
+                self?.pagingTimer?.fire()
+                self?.lastSearchMetadata = searchMetadata
+            })
+            .subscribe().disposed(by: disposeBag)
     }
 }

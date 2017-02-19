@@ -10,7 +10,7 @@ import Foundation
 import Mapper
 
 struct Tweet: Mappable {
-    let id: Int
+    let id: String
     let user: User
     let text: String
     let retweetCount: Int
@@ -20,7 +20,7 @@ struct Tweet: Mappable {
     let extendedMedia: [Media]?
 
     init(map: Mapper) throws {
-        try id = map.from("id")
+        try id = map.from("id_str")
         try user = map.from("user")
         try text = map.from("text")
         try retweetCount = map.from("retweet_count")
@@ -28,6 +28,12 @@ struct Tweet: Mappable {
         try createdAt = map.from("created_at") { _ in Date() } // TODO parse date string
         try entities = map.from("entities")
         extendedMedia = map.optionalFrom("extended_entities.media")
+    }
+}
+
+extension Tweet: Equatable {
+    static func == (lhs: Tweet, rhs: Tweet) -> Bool {
+        return lhs.id == rhs.id
     }
 }
 
@@ -39,7 +45,7 @@ extension Tweet {
     }
 
     struct Media: Mappable {
-        let id: Int
+        let id: String
         let URL: URL
         let mediaURL: URL
         let expandedURL: URL
@@ -48,7 +54,7 @@ extension Tweet {
         let indices: [Int]
 
         init(map: Mapper) throws {
-            try id = map.from("id")
+            try id = map.from("id_str")
             try URL = map.from("url")
             try mediaURL = map.from("media_url_https")
             try expandedURL = map.from("expanded_url")

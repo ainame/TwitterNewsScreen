@@ -33,9 +33,10 @@ struct TwitterClient {
         }
     }
 
-    func search(for queryStrng: String) -> Observable<([Tweet], SearchMetadata)> {
+    func search(for queryStrng: String, with searchMetadata: SearchMetadata? = nil) -> Observable<([Tweet], SearchMetadata)> {
         return Observable.create { observer in
-            self.swifter.searchTweet(using: queryStrng, includeEntities: true, success: { json, searchMetadataJSON in
+            self.swifter.searchTweet(using: queryStrng, sinceID: searchMetadata?.maxId,
+                                     includeEntities: true, success: { json, searchMetadataJSON in
                 let array = TwitterClient.convertRecursive(json) as! NSArray
                 let statuses = Tweet.from(array)!
                 let dictionary = TwitterClient.convertRecursive(searchMetadataJSON) as! NSDictionary
@@ -48,8 +49,8 @@ struct TwitterClient {
         }
     }
 
-    func searchMedia(for queryString: String) -> Observable<([Tweet], SearchMetadata)> {
-        return search(for: "\(queryString) filter:media")
+    func searchMedia(for queryString: String, with searchMetadata: SearchMetadata? = nil) -> Observable<([Tweet], SearchMetadata)> {
+        return search(for: "\(queryString) filter:media", with: searchMetadata)
     }
 
     func timeline() -> Observable<[Tweet]> {

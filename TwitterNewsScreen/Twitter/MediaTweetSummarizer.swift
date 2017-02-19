@@ -17,7 +17,7 @@ struct MediaTweetSummary {
 }
 
 struct MediaTweetSummarizer {
-    static func summary(_ tweet: Tweet) -> MediaTweetSummary? {
+    static func summary(_ tweet: Tweet) -> MediaTweetSummary {
         if let extendedMedia = tweet.extendedMedia {
             let index = Int(arc4random() % UInt32(extendedMedia.count))
             return MediaTweetSummary(
@@ -39,6 +39,12 @@ struct MediaTweetSummarizer {
             )
         }
 
-        return nil
+        return MediaTweetSummary(
+            type: .photo,
+            URL: URL(string: "https://placeholdit.imgix.net/~text?txtsize=33&txt=No+Image+Available&w=350&h=150")!,
+            user: tweet.user,
+            text: tweet.text,
+            createdAt: tweet.createdAt
+        )
     }
 }
