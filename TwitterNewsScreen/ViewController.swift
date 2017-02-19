@@ -9,10 +9,12 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Kingfisher
 
 class ViewController: UIViewController {
     @IBOutlet weak var authButton: UIButton!
     @IBOutlet weak var networkStateLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
 
     private let disposeBag = DisposeBag()
     private let viewModel = TweetSearcherViewModel()
@@ -20,10 +22,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        authButton.rx.tap.asObservable()
-            .flatMapLatest { self.viewModel.searchMedia(for: "この世界の片隅に").catchErrorJustReturn([]) }
+        let observable = authButton.rx.tap.asObservable()
+        observable.flatMapLatest { self.viewModel.search(for: "ゼルダ").catchErrorJustReturn([]) }
             .subscribe(onNext: { tweets in
-                print(tweets.map { $0.media![0].URL.absoluteString })
+                self.setTweet(tweet: tweets[0])
             }, onError: { error in
                 print(error)
             })
@@ -35,5 +37,9 @@ class ViewController: UIViewController {
             .asDriver(onErrorJustReturn: "error")
             .drive(networkStateLabel.rx.text)
             .disposed(by: disposeBag)
+    }
+
+    func setTweet(tweet: Tweet) {
+        self.imageView.kf.setImage(with: tweet.extendedMedia?[0].mediaURL)
     }
 }

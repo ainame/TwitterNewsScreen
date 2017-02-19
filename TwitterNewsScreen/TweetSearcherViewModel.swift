@@ -22,19 +22,17 @@ struct TweetSearcherViewModel {
     init() {
     }
 
+    func show(forId: String) -> Observable<Tweet> {
+        return makeClient().flatMap { $0.show(forId: forId) }
+    }
+
     func search(for queryString: String) -> Observable<[Tweet]> {
         return makeClient()
-            .flatMap { $0.search(for: queryString) }
+            .flatMap { $0.searchMedia(for: queryString) }
             .observeOn(MainScheduler.instance)
             .do(onSubscribe: { self.networkState.value = .connecting },
                 onDispose: { self.networkState.value = .none })
             .map { (results, _) in results }
-    }
-
-    func searchMedia(for queryString: String) -> Observable<[Tweet]> {
-        return search(for: queryString)
-            .map { tweets in tweets.filter { $0.media != nil } }
-            .filter { tweets in !tweets.isEmpty }
     }
 
     private func makeClient() -> Observable<TwitterClient> {

@@ -33,16 +33,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kfK-ch-0Yw">
+                                <rect key="frame" x="36" y="324" width="302" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="authButton" destination="6Q0-L1-ket" id="cW5-jt-oYP"/>
+                        <outlet property="imageView" destination="kfK-ch-0Yw" id="GE8-XG-LQv"/>
                         <outlet property="networkStateLabel" destination="aoN-Tn-ezy" id="frF-8t-QCN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="69.599999999999994" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>

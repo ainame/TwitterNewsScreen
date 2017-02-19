@@ -20,6 +20,19 @@ struct TwitterClient {
         swifter = Swifter(account: account)
     }
 
+    func show(forId: String) -> Observable<Tweet> {
+        return Observable.create { observer in
+            self.swifter.getTweet(forID: forId, includeEntities: true, success: { json in
+                let dictionary = TwitterClient.convertRecursive(json) as! NSDictionary
+                let tweet = Tweet.from(dictionary)!
+                observer.onNext(tweet)
+                observer.onCompleted()
+            }, failure: observer.onError)
+
+            return Disposables.create()
+        }
+    }
+
     func search(for queryStrng: String) -> Observable<([Tweet], SearchMetadata)> {
         return Observable.create { observer in
             self.swifter.searchTweet(using: queryStrng, includeEntities: true, success: { json, searchMetadataJSON in
@@ -29,11 +42,14 @@ struct TwitterClient {
                 let searchMetadata = SearchMetadata.from(dictionary)!
                 observer.onNext((statuses, searchMetadata))
                 observer.onCompleted()
-            }, failure: { error in
-                observer.onError(error)
-            })
+            }, failure: observer.onError)
+
             return Disposables.create()
         }
+    }
+
+    func searchMedia(for queryString: String) -> Observable<([Tweet], SearchMetadata)> {
+        return search(for: "\(queryString) filter:media")
     }
 
     func timeline() -> Observable<[Tweet]> {

@@ -12,8 +12,8 @@ import Mapper
 struct SearchMetadata: Mappable {
     let maxId: Int
     let sinceId: Int
-    let refreshURL: URL
-    let nextResults: String
+    let refreshURL: String
+    let nextResults: String?
     let count: Int
     let completedIn: Double
     let query: String
@@ -22,7 +22,7 @@ struct SearchMetadata: Mappable {
         try maxId = map.from("max_id")
         try sinceId = map.from("since_id")
         try refreshURL = map.from("refresh_url")
-        try nextResults = map.from("next_results")
+        nextResults = map.optionalFrom("next_results")
         try count = map.from("count")
         try completedIn = map.from("completed_in")
         try query = map.from("query")
