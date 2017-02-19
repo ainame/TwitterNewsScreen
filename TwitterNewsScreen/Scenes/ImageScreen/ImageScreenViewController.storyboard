@@ -125,18 +125,28 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDe-od-5Af">
+                                <rect key="frame" x="20" y="20" width="30" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="×">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nKD-bV-4Dy" firstAttribute="leading" secondItem="O6f-p6-7J3" secondAttribute="leading" id="8K5-lo-ZRo"/>
+                            <constraint firstItem="LDe-od-5Af" firstAttribute="top" secondItem="TBw-ID-heC" secondAttribute="bottom" id="Ktm-7v-GOV"/>
                             <constraint firstItem="nKD-bV-4Dy" firstAttribute="top" secondItem="O6f-p6-7J3" secondAttribute="top" id="SSU-XW-znN"/>
                             <constraint firstItem="nKD-bV-4Dy" firstAttribute="height" secondItem="O6f-p6-7J3" secondAttribute="height" id="cXt-ze-REH"/>
                             <constraint firstItem="nKD-bV-4Dy" firstAttribute="width" secondItem="O6f-p6-7J3" secondAttribute="width" id="mJe-o4-qSU"/>
+                            <constraint firstItem="LDe-od-5Af" firstAttribute="leading" secondItem="O6f-p6-7J3" secondAttribute="leadingMargin" id="mrp-kc-iso"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="736"/>
                     <connections>
+                        <outlet property="closeButton" destination="LDe-od-5Af" id="URt-av-HhP"/>
                         <outlet property="collectionView" destination="nKD-bV-4Dy" id="RVn-Xw-t0V"/>
                     </connections>
                 </viewController>
