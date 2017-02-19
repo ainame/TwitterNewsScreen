@@ -8,27 +8,37 @@
 
 import Foundation
 
+struct MediaTweetSummary {
+    let type: Tweet.MediaType
+    let URL: URL
+    let user: User
+    let text: String
+    let createdAt: Date
+}
+
 struct MediaTweetSummarizer {
-    enum MediaType: String {
-        case photo
-        case video
-        case animated_gif
-    }
-    struct MediaSummary {
-        let type: MediaType
-        let URL: URL
-        let user: User
-        let text: String
-        let createdAt: Date
-    }
-    
-    static func summary(tweet: Tweet) -> URL {
+    static func summary(_ tweet: Tweet) -> MediaTweetSummary? {
         if let extendedMedia = tweet.extendedMedia {
-            return extendedMedia[0].mediaURL
+            let index = Int(arc4random() % UInt32(extendedMedia.count))
+            return MediaTweetSummary(
+                type: extendedMedia[index].type,
+                URL: extendedMedia[index].mediaURL,
+                user: tweet.user,
+                text: tweet.text,
+                createdAt: tweet.createdAt
+            )
         }
-        
-        if let media = tweet.entities.media {
-            return extendedMedia[0].mediaURL
+
+        if let media = tweet.entities.media?.first {
+            return MediaTweetSummary(
+                type: media.type,
+                URL: media.mediaURL,
+                user: tweet.user,
+                text: tweet.text,
+                createdAt: tweet.createdAt
+            )
         }
+
+        return nil
     }
 }

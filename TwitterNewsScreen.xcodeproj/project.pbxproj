@@ -22,6 +22,10 @@
 		BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */; };
 		BD6FB1A91E58C6C4001B17C9 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6FB1A81E58C6C4001B17C9 /* Kingfisher.framework */; };
 		BD6FB1AD1E58ED4C001B17C9 /* MediaTweetSummarizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FB1AC1E58ED4C001B17C9 /* MediaTweetSummarizer.swift */; };
+		BD6FB1B11E595E77001B17C9 /* ImageScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FB1B01E595E77001B17C9 /* ImageScreenViewController.swift */; };
+		BD6FB1B31E595EC7001B17C9 /* ImageScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6FB1B21E595EC7001B17C9 /* ImageScreenViewController.storyboard */; };
+		BD6FB1B51E5966B2001B17C9 /* FullScreenFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FB1B41E5966B2001B17C9 /* FullScreenFlowLayout.swift */; };
+		BD6FB1B71E596DE6001B17C9 /* ImageScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FB1B61E596DE6001B17C9 /* ImageScreenCell.swift */; };
 		BD75B17B1E57F69A0064D8A6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */; };
 		BD75B17D1E5807F40064D8A6 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B17C1E5807F40064D8A6 /* Tweet.swift */; };
 		BD75B17F1E580A830064D8A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75B17E1E580A830064D8A6 /* User.swift */; };
@@ -68,6 +72,10 @@
 		BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccountRequester.swift; sourceTree = "<group>"; };
 		BD6FB1A81E58C6C4001B17C9 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		BD6FB1AC1E58ED4C001B17C9 /* MediaTweetSummarizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTweetSummarizer.swift; sourceTree = "<group>"; };
+		BD6FB1B01E595E77001B17C9 /* ImageScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScreenViewController.swift; sourceTree = "<group>"; };
+		BD6FB1B21E595EC7001B17C9 /* ImageScreenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImageScreenViewController.storyboard; sourceTree = "<group>"; };
+		BD6FB1B41E5966B2001B17C9 /* FullScreenFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenFlowLayout.swift; sourceTree = "<group>"; };
+		BD6FB1B61E596DE6001B17C9 /* ImageScreenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScreenCell.swift; sourceTree = "<group>"; };
 		BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		BD75B17C1E5807F40064D8A6 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		BD75B17E1E580A830064D8A6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -138,6 +146,10 @@
 				BD1B54F21E57E38000283569 /* Main.storyboard */,
 				BD1B54F01E57E38000283569 /* ViewController.swift */,
 				BD75B1861E5835B40064D8A6 /* TweetSearcherViewModel.swift */,
+				BD6FB1B01E595E77001B17C9 /* ImageScreenViewController.swift */,
+				BD6FB1B21E595EC7001B17C9 /* ImageScreenViewController.storyboard */,
+				BD6FB1B41E5966B2001B17C9 /* FullScreenFlowLayout.swift */,
+				BD6FB1B61E596DE6001B17C9 /* ImageScreenCell.swift */,
 			);
 			path = TwitterNewsScreen;
 			sourceTree = "<group>";
@@ -299,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1B54F91E57E38000283569 /* LaunchScreen.storyboard in Resources */,
+				BD6FB1B31E595EC7001B17C9 /* ImageScreenViewController.storyboard in Resources */,
 				BD1B54F61E57E38000283569 /* Assets.xcassets in Resources */,
 				BD1B54F41E57E38000283569 /* Main.storyboard in Resources */,
 			);
@@ -360,6 +373,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6FB1B51E5966B2001B17C9 /* FullScreenFlowLayout.swift in Sources */,
+				BD6FB1B11E595E77001B17C9 /* ImageScreenViewController.swift in Sources */,
 				BD6FB1AD1E58ED4C001B17C9 /* MediaTweetSummarizer.swift in Sources */,
 				BD75B1851E58316D0064D8A6 /* SearchMetadata.swift in Sources */,
 				BD1B54F11E57E38000283569 /* ViewController.swift in Sources */,
@@ -369,6 +384,7 @@
 				BD75B17D1E5807F40064D8A6 /* Tweet.swift in Sources */,
 				BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */,
 				BD1B54EF1E57E38000283569 /* AppDelegate.swift in Sources */,
+				BD6FB1B71E596DE6001B17C9 /* ImageScreenCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
