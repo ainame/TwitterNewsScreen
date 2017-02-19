@@ -1,3 +1,4 @@
 github "mattdonnelly/Swifter"
 github "ReactiveX/RxSwift"
 github "lyft/Mapper"
+github "onevcat/Kingfisher"
