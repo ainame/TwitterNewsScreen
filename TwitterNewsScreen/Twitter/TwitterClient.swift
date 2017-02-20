@@ -20,9 +20,9 @@ struct TwitterClient {
         swifter = Swifter(account: account)
     }
 
-    func show(forId: String) -> Observable<Tweet> {
+    func showTweet(by id: String) -> Observable<Tweet> {
         return Observable.create { observer in
-            self.swifter.getTweet(forID: forId, includeEntities: true, success: { json in
+            self.swifter.getTweet(forID: id, includeEntities: true, success: { json in
                 let dictionary = TwitterClient.convertRecursive(json) as! NSDictionary
                 let tweet = Tweet.from(dictionary)!
                 observer.onNext(tweet)
@@ -33,9 +33,21 @@ struct TwitterClient {
         }
     }
 
-    func search(for queryStrng: String, with searchMetadata: SearchMetadata? = nil) -> Observable<([Tweet], SearchMetadata)> {
+    func showUser(by screenName: String) -> Observable<User> {
         return Observable.create { observer in
-            self.swifter.searchTweet(using: queryStrng, sinceID: searchMetadata?.maxId,
+            self.swifter.showUser(for: UserTag.screenName(screenName), success: { json in
+                let dictionary = TwitterClient.convertRecursive(json) as! NSDictionary
+                let user = User.from(dictionary)!
+                observer.onNext(user)
+                observer.onCompleted()
+            }, failure: observer.onError)
+            return Disposables.create()
+        }
+    }
+
+    func search(for queryStrng: String, since sinceId: String? = nil) -> Observable<([Tweet], SearchMetadata)> {
+        return Observable.create { observer in
+            self.swifter.searchTweet(using: queryStrng, sinceID: sinceId,
                                      includeEntities: true, success: { json, searchMetadataJSON in
                 let array = TwitterClient.convertRecursive(json) as! NSArray
                 let statuses = Tweet.from(array)!
@@ -49,14 +61,13 @@ struct TwitterClient {
         }
     }
 
-    func searchMedia(for queryString: String, with searchMetadata: SearchMetadata? = nil) -> Observable<([Tweet], SearchMetadata)> {
-        return search(for: "\(queryString) filter:media", with: searchMetadata)
+    func searchMedia(for queryString: String, since sinceId: String? = nil) -> Observable<([Tweet], SearchMetadata)> {
+        return search(for: "\(queryString) filter:media", since: sinceId)
     }
 
-    func timeline() -> Observable<[Tweet]> {
+    func timeline(for userId: String, since sinceId: String? = nil) -> Observable<[Tweet]> {
         return Observable.create { observer in
-            let userID: String = self.account.value(forKeyPath: "properties.user_id")! as! String
-            self.swifter.getTimeline(for: userID, success: { json in
+            self.swifter.getTimeline(for: userId, success: { json in
                 let array = TwitterClient.convertRecursive(json) as! NSArray
                 let statuses = Tweet.from(array)
                 observer.onNext(statuses!)

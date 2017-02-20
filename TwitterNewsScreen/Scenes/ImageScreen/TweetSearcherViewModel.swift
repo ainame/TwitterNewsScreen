@@ -28,25 +28,37 @@ struct TweetSearcherViewModel {
         tweetStream = Variable<[Tweet]>(store.fetch())
     }
 
-    func show(forId: String) -> Observable<Tweet> {
+    func lookupUser(by screenName: String) -> Observable<User> {
         return makeClient()
-            .flatMap { $0.show(forId: forId) }
+            .flatMap { $0.showUser(by: screenName) }
             .observeOn(MainScheduler.instance)
-            .do(onNext: { tweet in self.store([tweet]) },
-                onSubscribe: { self.networkState.value = .connecting },
+            .do(onSubscribe: { self.networkState.value = .connecting },
                 onDispose: { self.networkState.value = .none })
     }
 
-    func search(for queryString: String, with searchMetadata: SearchMetadata? = nil) -> Observable<([Tweet], SearchMetadata)> {
+    func search(for queryString: String, since sinceId: String? = nil) -> Observable<([Tweet], String)> {
         return makeClient()
-            .flatMap { $0.searchMedia(for: queryString, with: searchMetadata) }
+            .flatMap { $0.searchMedia(for: queryString, since: sinceId) }
             .filter { _, searchMetadata in searchMetadata.count > 0 }
+            .map { tweets, searchMetadata in (tweets, searchMetadata.maxId) }
             .observeOn(MainScheduler.instance)
             .do(onNext: { tweets, _ in self.store(tweets) },
                 onSubscribe: { self.networkState.value = .connecting },
                 onDispose: { self.networkState.value = .none })
     }
-    
+
+    func timeline(by screenName: String, since sinceId: String? = nil) -> Observable<([Tweet], String)> {
+        return makeClient()
+            .map { client in (client, client.showUser(by: screenName)) }
+            .flatMap { client, user in user.flatMap { user in client.timeline(for: user.id, since: sinceId)} }
+            .filter { tweets in tweets.count > 0 }
+            .map { tweets in (tweets, tweets.last!.id) }
+            .observeOn(MainScheduler.instance)
+            .do(onNext: { tweets, _ in self.store(tweets) },
+                onSubscribe: { self.networkState.value = .connecting },
+                onDispose: { self.networkState.value = .none })
+    }
+
     private func store(_ tweets: [Tweet]) {
         store.append(tweets.reversed()) // todo: sort by createdat
         store.fetch().forEach { tweet in

@@ -23,8 +23,8 @@ class ImageScreenViewController: UIViewController {
     let disposeBag = DisposeBag()
 
     var launchOption: LaunchOption?
-    var query: ((SearchMetadata?) -> Observable<([Tweet], SearchMetadata)>?)?
-    var lastSearchMetadata: SearchMetadata?
+    var query: ((String?) -> Observable<([Tweet], String)>?)?
+    var maxId: String?
 
     var pagingTimer: Timer?
     var pollingTimer: Timer?
@@ -40,13 +40,13 @@ class ImageScreenViewController: UIViewController {
             self?.pollingTweets()
         }
 
-        query = { [weak self, launchOption] searchMetadata in
+        query = { [weak self, launchOption] maxId in
             guard let launchOption = launchOption else { fatalError("must given launch option") }
             switch launchOption {
             case .keyword(let keyword):
-                return self?.viewModel.search(for: keyword, with: searchMetadata)
+                return self?.viewModel.search(for: keyword, since: maxId)
             case .screenName(let screenName):
-                return self?.viewModel.search(for: screenName, with: searchMetadata)
+                return self?.viewModel.timeline(by: screenName, since: maxId)
             }
         }
 
@@ -99,10 +99,10 @@ class ImageScreenViewController: UIViewController {
             self?.pagingToNext()
         }
         guard let query = query else { fatalError() }
-        query(lastSearchMetadata)!
-            .do(onNext: { [weak self] _, searchMetadata in
+        query(maxId)!
+            .do(onNext: { [weak self] _, maxId in
                 self?.pagingTimer?.fire()
-                self?.lastSearchMetadata = searchMetadata
+                self?.maxId = maxId
             })
             .subscribe().disposed(by: disposeBag)
     }
