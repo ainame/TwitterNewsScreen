@@ -60,10 +60,7 @@ struct TweetSearcherViewModel {
     }
 
     private func store(_ tweets: [Tweet]) {
-        store.append(tweets.reversed()) // todo: sort by createdat
-        store.fetch().forEach { tweet in
-            print("id=\(tweet.id) text=\"\(tweet.text)\"")
-        }
+        store.append(tweets.sorted { $0.createdAt < $1.createdAt })
         tweetStream.value = store.fetch()
     }
 
