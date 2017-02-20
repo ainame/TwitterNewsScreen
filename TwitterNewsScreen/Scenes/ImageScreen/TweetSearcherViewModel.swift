@@ -56,7 +56,8 @@ struct TweetSearcherViewModel {
             .flatMap { client, user in user.flatMap { user in client.timeline(for: user.id, since: sinceId)} }
             .map { tweets in
                 let notRetweeted = tweets.filter { !$0.retweeted }
-                return (notRetweeted, tweets.last!.id)
+                let maxId = tweets.map { $0.id }.max() ?? "0"
+                return (notRetweeted, maxId)
             }.filter { tweets, _ in tweets.count > 0 }
             .observeOn(MainScheduler.instance)
             .do(onNext: { tweets, _ in self.store(tweets) },

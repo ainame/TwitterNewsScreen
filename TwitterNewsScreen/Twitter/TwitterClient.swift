@@ -67,7 +67,7 @@ struct TwitterClient {
 
     func timeline(for userId: String, since sinceId: String? = nil) -> Observable<[Tweet]> {
         return Observable.create { observer in
-            self.swifter.getTimeline(for: userId, success: { json in
+            self.swifter.getTimeline(for: userId, sinceID: sinceId, success: { json in
                 let array = TwitterClient.convertRecursive(json) as! NSArray
                 let statuses = Tweet.from(array)
                 observer.onNext(statuses!)
