@@ -15,6 +15,7 @@ struct Tweet: Mappable {
     let user: User
     let text: String
     let retweetCount: Int
+    let retweeted: Bool
     let favoritesCount: Int
     let createdAt: DateInRegion
     let entities: Entities
@@ -25,6 +26,7 @@ struct Tweet: Mappable {
         try user = map.from("user")
         try text = map.from("text")
         try retweetCount = map.from("retweet_count")
+        try retweeted = map.from("retweeted")
         try favoritesCount = map.from("favorite_count")
         try createdAt = map.from("created_at") { str in
             DateFormatHelper.parseTwitterFormat(string: str as! String)

@@ -39,8 +39,11 @@ struct TweetSearcherViewModel {
     func search(for queryString: String, since sinceId: String? = nil) -> Observable<([Tweet], String)> {
         return makeClient()
             .flatMap { $0.searchMedia(for: queryString, since: sinceId) }
-            .filter { _, searchMetadata in searchMetadata.count > 0 }
-            .map { tweets, searchMetadata in (tweets, searchMetadata.maxId) }
+            .map { tweets, searchMetadata in
+                let notRetweeted = tweets.filter { !$0.retweeted }
+                return (notRetweeted, searchMetadata.maxId)
+            }
+            .filter { tweets, _ in tweets.count > 0 }
             .observeOn(MainScheduler.instance)
             .do(onNext: { tweets, _ in self.store(tweets) },
                 onSubscribe: { self.networkState.value = .connecting },
@@ -51,8 +54,10 @@ struct TweetSearcherViewModel {
         return makeClient()
             .map { client in (client, client.showUser(by: screenName)) }
             .flatMap { client, user in user.flatMap { user in client.timeline(for: user.id, since: sinceId)} }
-            .filter { tweets in tweets.count > 0 }
-            .map { tweets in (tweets, tweets.last!.id) }
+            .map { tweets in
+                let notRetweeted = tweets.filter { !$0.retweeted }
+                return (notRetweeted, tweets.last!.id)
+            }.filter { tweets, _ in tweets.count > 0 }
             .observeOn(MainScheduler.instance)
             .do(onNext: { tweets, _ in self.store(tweets) },
                 onSubscribe: { self.networkState.value = .connecting },
