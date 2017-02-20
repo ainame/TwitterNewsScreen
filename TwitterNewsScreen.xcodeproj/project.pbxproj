@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3183824A1E5A9DFA0012511F /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318382491E5A9DFA0012511F /* SwiftDate.framework */; };
 		BD1B54EF1E57E38000283569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B54EE1E57E38000283569 /* AppDelegate.swift */; };
 		BD1B54F61E57E38000283569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1B54F51E57E38000283569 /* Assets.xcassets */; };
 		BD1B54F91E57E38000283569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		318382491E5A9DFA0012511F /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
 		BD1B54EB1E57E38000283569 /* TwitterNewsScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterNewsScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1B54EE1E57E38000283569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1B54F51E57E38000283569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3183824A1E5A9DFA0012511F /* SwiftDate.framework in Frameworks */,
 				BD6FB1A91E58C6C4001B17C9 /* Kingfisher.framework in Frameworks */,
 				BD75B17B1E57F69A0064D8A6 /* RxCocoa.framework in Frameworks */,
 				BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */,
@@ -185,6 +188,7 @@
 		BD1B55221E57E8A500283569 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				318382491E5A9DFA0012511F /* SwiftDate.framework */,
 				BD6FB1A81E58C6C4001B17C9 /* Kingfisher.framework */,
 				BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */,
 				BD1B552C1E57EB4500283569 /* RxSwift.framework */,
@@ -372,6 +376,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Mapper.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
 			);
 			outputPaths = (
 			);
