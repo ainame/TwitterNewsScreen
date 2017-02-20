@@ -47,7 +47,7 @@ struct TwitterClient {
 
     func search(for queryStrng: String, since sinceId: String? = nil) -> Observable<([Tweet], SearchMetadata)> {
         return Observable.create { observer in
-            self.swifter.searchTweet(using: queryStrng, sinceID: sinceId,
+            self.swifter.searchTweet(using: queryStrng, resultType: "recent", sinceID: sinceId,
                                      includeEntities: true, success: { json, searchMetadataJSON in
                 let array = TwitterClient.convertRecursive(json) as! NSArray
                 let statuses = Tweet.from(array)!
