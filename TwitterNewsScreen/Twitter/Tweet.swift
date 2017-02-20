@@ -8,6 +8,7 @@
 
 import Foundation
 import Mapper
+import SwiftDate
 
 struct Tweet: Mappable {
     let id: String
@@ -15,7 +16,7 @@ struct Tweet: Mappable {
     let text: String
     let retweetCount: Int
     let favoritesCount: Int
-    let createdAt: Date
+    let createdAt: DateInRegion
     let entities: Entities
     let extendedMedia: [Media]?
 
@@ -25,7 +26,9 @@ struct Tweet: Mappable {
         try text = map.from("text")
         try retweetCount = map.from("retweet_count")
         try favoritesCount = map.from("favorite_count")
-        try createdAt = map.from("created_at") { _ in Date() } // TODO parse date string
+        try createdAt = map.from("created_at") { str in
+            DateFormatHelper.parseTwitterFormat(string: str as! String)
+        }
         try entities = map.from("entities")
         extendedMedia = map.optionalFrom("extended_entities.media")
     }

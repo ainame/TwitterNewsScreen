@@ -8,13 +8,14 @@
 
 import UIKit
 import Kingfisher
+import SwiftDate
 
 protocol TweetSummaryType {
     var type: Tweet.MediaType { get }
     var URL: URL { get }
     var user: User { get }
     var text: String { get }
-    var createdAt: Date { get }
+    var createdAt: DateInRegion { get }
 }
 
 extension MediaTweetSummary: TweetSummaryType {}
@@ -30,7 +31,8 @@ class ImageScreenCell: UICollectionViewCell {
         guard let summary = summary else { return }
         imageView.kf.setImage(with: summary.URL)
         profileImageView.kf.setImage(with: summary.user.profileImageUrl)
-        nameLabel.text = "\(summary.user.name)(@\(summary.user.screenName)) - \("2017.02.15")"
+        let formattedDate = summary.createdAt.string(dateStyle: .long, timeStyle: .medium)
+        nameLabel.text = "\(summary.user.name)(@\(summary.user.screenName)) - \(formattedDate)"
         textLabel.text = summary.text
     }
 }

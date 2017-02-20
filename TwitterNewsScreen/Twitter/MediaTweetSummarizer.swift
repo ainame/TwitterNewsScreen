@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import SwiftDate
 
 struct MediaTweetSummary {
     let type: Tweet.MediaType
     let URL: URL
     let user: User
     let text: String
-    let createdAt: Date
+    let createdAt: DateInRegion
 }
 
 struct MediaTweetSummarizer {

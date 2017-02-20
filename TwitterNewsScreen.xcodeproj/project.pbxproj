@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3183824A1E5A9DFA0012511F /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318382491E5A9DFA0012511F /* SwiftDate.framework */; };
+		3183824D1E5A9E420012511F /* DateFormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3183824C1E5A9E420012511F /* DateFormatHelper.swift */; };
 		BD1B54EF1E57E38000283569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B54EE1E57E38000283569 /* AppDelegate.swift */; };
 		BD1B54F61E57E38000283569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1B54F51E57E38000283569 /* Assets.xcassets */; };
 		BD1B54F91E57E38000283569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		318382491E5A9DFA0012511F /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
+		3183824C1E5A9E420012511F /* DateFormatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatHelper.swift; sourceTree = "<group>"; };
 		BD1B54EB1E57E38000283569 /* TwitterNewsScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterNewsScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1B54EE1E57E38000283569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1B54F51E57E38000283569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3183824B1E5A9E2E0012511F /* Uitls */ = {
+			isa = PBXGroup;
+			children = (
+				3183824C1E5A9E420012511F /* DateFormatHelper.swift */,
+			);
+			name = Uitls;
+			sourceTree = "<group>";
+		};
 		BD1B54E21E57E37F00283569 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +155,7 @@
 			children = (
 				BD444C951E59A9DE00C8F6A7 /* Scenes */,
 				BD1B551F1E57E69600283569 /* Twitter */,
+				3183824B1E5A9E2E0012511F /* Uitls */,
 				BD1B54EE1E57E38000283569 /* AppDelegate.swift */,
 				BD1B54F51E57E38000283569 /* Assets.xcassets */,
 				BD1B54FA1E57E38000283569 /* Info.plist */,
@@ -411,6 +422,7 @@
 				BD6FB1AD1E58ED4C001B17C9 /* MediaTweetSummarizer.swift in Sources */,
 				BD75B1851E58316D0064D8A6 /* SearchMetadata.swift in Sources */,
 				BD75B1871E5835B40064D8A6 /* TweetSearcherViewModel.swift in Sources */,
+				3183824D1E5A9E420012511F /* DateFormatHelper.swift in Sources */,
 				BD58D16D1E59E2A800E81FBB /* KeywordEditorViewController.swift in Sources */,
 				BD1B55211E57E6AA00283569 /* TwitterClient.swift in Sources */,
 				BD75B17F1E580A830064D8A6 /* User.swift in Sources */,
