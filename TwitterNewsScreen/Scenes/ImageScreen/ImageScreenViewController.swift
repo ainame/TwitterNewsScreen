@@ -19,7 +19,9 @@ class ImageScreenViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var closeButton: UIButton!
 
-    let viewModel = TweetSearcherViewModel(store: TweetStore())
+    static let storeCapacity = 500
+    
+    let viewModel = TweetSearcherViewModel(store: TweetStore(limit: ImageScreenViewController.storeCapacity))
     let disposeBag = DisposeBag()
 
     var launchOption: LaunchOption?

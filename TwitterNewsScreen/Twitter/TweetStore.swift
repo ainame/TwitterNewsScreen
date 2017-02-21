@@ -16,21 +16,28 @@ protocol TweetStorable {
 }
 
 final class TweetStore: TweetStorable {
+    let limit: Int
     let lock = NSLock()
     var array = [Tweet]()
     var count: Int {
         return array.count
     }
 
+    init(limit: Int) {
+        self.limit = limit
+    }
+
     func append(_ tweets: [Tweet]) {
         synchronized {
             array.append(contentsOf: tweets)
+            array.removeFirst(array.count - limit)
         }
     }
 
     func append(_ tweet: Tweet) {
         synchronized {
             array.append(tweet)
+            array.removeFirst(array.count - limit)
         }
     }
 
