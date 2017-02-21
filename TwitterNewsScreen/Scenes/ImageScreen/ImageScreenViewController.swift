@@ -12,8 +12,8 @@ import RxCocoa
 
 class ImageScreenViewController: UIViewController {
     enum LaunchOption {
-        case keyword(String)
-        case screenName(String)
+        case keyword(keyword: String, pollingInterval: Int, pagingInterval: Int)
+        case screenName(screenName: String, pollingInterval: Int, pagingInterval: Int)
     }
 
     @IBOutlet weak var collectionView: UICollectionView!
@@ -28,26 +28,30 @@ class ImageScreenViewController: UIViewController {
     var query: ((String?) -> Observable<([Tweet], String)>?)?
     var maxId: String?
 
-    var pagingTimer: Timer?
+    var pollingInterval: Int = 10
     var pollingTimer: Timer?
-    var currentIndexPath: IndexPath? {
-        return self.collectionView.indexPathsForVisibleItems.first
+
+    var pagingInterval: Int = 5
+    var pagingTimer: Timer?
+
+    var currentIndexPath: IndexPath {
+        return self.collectionView.indexPathsForVisibleItems.first!
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
 
-        pollingTimer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { [weak self] _ in
-            self?.pollingTweets()
-        }
-
         query = { [weak self, launchOption] maxId in
             guard let launchOption = launchOption else { fatalError("must given launch option") }
             switch launchOption {
-            case .keyword(let keyword):
+            case .keyword(let keyword, let pollingInterval, let pagingInterval):
+                self?.pollingInterval = pollingInterval
+                self?.pagingInterval = pagingInterval
                 return self?.viewModel.search(for: keyword, since: maxId)
-            case .screenName(let screenName):
+            case .screenName(let screenName, let pollingInterval, let pagingInterval):
+                self?.pollingInterval = pollingInterval
+                self?.pagingInterval = pagingInterval
                 return self?.viewModel.timeline(by: screenName, since: maxId)
             }
         }
@@ -64,6 +68,9 @@ class ImageScreenViewController: UIViewController {
             .subscribe(onNext: { [weak self] in self?.dismiss(animated: true, completion: nil)})
             .disposed(by: disposeBag)
 
+        pollingTimer = Timer.scheduledTimer(withTimeInterval: TimeInterval(pollingInterval), repeats: true) { [weak self] _ in
+            self?.pollingTweets()
+        }
         pollingTimer?.fire()
     }
 
@@ -85,7 +92,6 @@ class ImageScreenViewController: UIViewController {
 
     func pagingToNext() {
         print("page! \(self.currentIndexPath)")
-        guard let currentIndexPath = self.currentIndexPath else { return }
 
         let max = self.collectionView.numberOfItems(inSection: currentIndexPath.section)
         if max > 0 && currentIndexPath.item < max - 1 {
@@ -96,21 +102,24 @@ class ImageScreenViewController: UIViewController {
 
     func pollingTweets() {
         print("polling")
+
         pagingTimer?.invalidate()
-        pagingTimer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { [weak self] _ in
+        pagingTimer = Timer.scheduledTimer(withTimeInterval: TimeInterval(pagingInterval), repeats: true) { [weak self] _ in
             self?.pagingToNext()
         }
         guard let query = query else { fatalError() }
         query(maxId)!
-            .do(onNext: { [weak self] tweets, maxId in
+            .subscribe(onNext: { [weak self, currentIndexPath, pollingInterval, pagingInterval] tweets, maxId in
                 guard let strongSelf = self else { return }
                 if tweets.isEmpty {
-                    let nextIndexPath = IndexPath(item: strongSelf.currentIndexPath!.item - 3, section: strongSelf.currentIndexPath!.section)
+                    let scrollback = pollingInterval / pagingInterval
+                    let nextIndexPath = IndexPath(item: currentIndexPath.item - scrollback,
+                                                  section: currentIndexPath.section)
                     strongSelf.collectionView.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true)
                 }
                 strongSelf.pagingTimer?.fire()
                 strongSelf.maxId = maxId
             })
-            .subscribe().disposed(by: disposeBag)
+            .disposed(by: disposeBag)
     }
 }

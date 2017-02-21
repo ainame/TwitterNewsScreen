@@ -37,7 +37,8 @@ class KeywordEditorViewController: UIViewController {
             return
         }
 
-        let launchOption = ImageScreenViewController.LaunchOption.keyword(keyword)
+        let launchOption = ImageScreenViewController
+            .LaunchOption.keyword(keyword: keyword, pollingInterval: 60, pagingInterval: 10)
         presentImageScreenViewController(launchOption)
     }
 
@@ -47,7 +48,8 @@ class KeywordEditorViewController: UIViewController {
             return
         }
 
-        let launchOption = ImageScreenViewController.LaunchOption.screenName(screenName)
+        let launchOption = ImageScreenViewController
+            .LaunchOption.screenName(screenName: screenName, pollingInterval: 60, pagingInterval: 10)
         presentImageScreenViewController(launchOption)
     }
 
