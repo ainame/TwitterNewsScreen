@@ -30,14 +30,18 @@ final class TweetStore: TweetStorable {
     func append(_ tweets: [Tweet]) {
         synchronized {
             array.append(contentsOf: tweets)
-            array.removeFirst(array.count - limit)
+            if array.count > limit {
+                array.removeFirst(array.count - limit)
+            }
         }
     }
 
     func append(_ tweet: Tweet) {
         synchronized {
             array.append(tweet)
-            array.removeFirst(array.count - limit)
+            if array.count > limit {
+                array.removeFirst(array.count - limit)
+            }
         }
     }
 
