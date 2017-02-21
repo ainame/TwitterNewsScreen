@@ -37,12 +37,7 @@ final class TweetStore: TweetStorable {
     }
 
     func append(_ tweet: Tweet) {
-        synchronized {
-            array.append(tweet)
-            if array.count > limit {
-                array.removeFirst(array.count - limit)
-            }
-        }
+        append([tweet])
     }
 
     func fetch() -> [Tweet] {
