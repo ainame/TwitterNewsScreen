@@ -23,27 +23,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uOb-gF-rHL">
-                                <rect key="frame" x="36" y="40" width="303" height="141"/>
+                                <rect key="frame" x="36" y="40" width="303" height="211"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter検索スクリーンセーバー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmF-af-vLP">
-                                        <rect key="frame" x="30" y="0.0" width="244" height="21"/>
+                                        <rect key="frame" x="30" y="0.0" width="243.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="screen nameかキーワードを入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MFR-Zk-KDn">
-                                        <rect key="frame" x="35" y="31" width="233" height="30"/>
+                                        <rect key="frame" x="35.5" y="30.5" width="232.5" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCh-Wv-RBm">
-                                        <rect key="frame" x="60" y="71" width="184" height="30"/>
+                                        <rect key="frame" x="59.5" y="70.5" width="184" height="30"/>
                                         <state key="normal" title="キーワードで検索して表示"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsM-gH-Uvd">
-                                        <rect key="frame" x="90" y="111" width="123" height="30"/>
+                                        <rect key="frame" x="90" y="110.5" width="123" height="30"/>
                                         <state key="normal" title="ユーザー名で表示"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="おすすめ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPd-yz-uok">
+                                        <rect key="frame" x="117" y="150.5" width="69.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksj-KL-rTA">
+                                        <rect key="frame" x="35.5" y="181" width="232" height="30"/>
+                                        <state key="normal" title="毎日新聞写真部 (@mainichiphoto)"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -58,6 +68,7 @@
                     <connections>
                         <outlet property="keywordLaunchButton" destination="mCh-Wv-RBm" id="mCy-h6-K70"/>
                         <outlet property="keywordTextField" destination="MFR-Zk-KDn" id="ODv-le-PJL"/>
+                        <outlet property="recommended1" destination="ksj-KL-rTA" id="RXe-nT-sdC"/>
                         <outlet property="screenNameLaunchButton" destination="UsM-gH-Uvd" id="tct-dX-fhn"/>
                     </connections>
                 </viewController>

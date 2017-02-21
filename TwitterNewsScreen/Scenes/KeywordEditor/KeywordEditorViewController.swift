@@ -14,6 +14,7 @@ class KeywordEditorViewController: UIViewController {
     @IBOutlet weak var keywordTextField: UITextField!
     @IBOutlet weak var keywordLaunchButton: UIButton!
     @IBOutlet weak var screenNameLaunchButton: UIButton!
+    @IBOutlet weak var recommended1: UIButton!
 
     private let disposeBag = DisposeBag()
 
@@ -28,6 +29,11 @@ class KeywordEditorViewController: UIViewController {
         screenNameLaunchButton.rx.tap
             .asObservable()
             .subscribe(onNext: launchWithScreenName)
+            .disposed(by: disposeBag)
+
+        recommended1.rx.tap
+            .asObservable()
+            .subscribe(onNext: launch(screenName: "mainichiphoto"))
             .disposed(by: disposeBag)
     }
 
@@ -51,6 +57,22 @@ class KeywordEditorViewController: UIViewController {
         let launchOption = ImageScreenViewController
             .LaunchOption.screenName(screenName: screenName, pollingInterval: 60, pagingInterval: 10)
         presentImageScreenViewController(launchOption)
+    }
+
+    func launch(screenName: String) -> () -> Void {
+        return { [weak self] in
+            let launchOption = ImageScreenViewController
+                .LaunchOption.screenName(screenName: screenName, pollingInterval: 60, pagingInterval: 10)
+            self?.presentImageScreenViewController(launchOption)
+        }
+    }
+
+    func launch(keyword: String) -> () -> Void {
+        return { [weak self] in
+            let launchOption = ImageScreenViewController
+                .LaunchOption.keyword(keyword: keyword, pollingInterval: 60, pagingInterval: 10)
+            self?.presentImageScreenViewController(launchOption)
+        }
     }
 
     private func presentImageScreenViewController(_ launchOption: ImageScreenViewController.LaunchOption) {
