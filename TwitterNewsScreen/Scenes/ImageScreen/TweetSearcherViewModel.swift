@@ -36,30 +36,27 @@ struct TweetSearcherViewModel {
                 onDispose: { self.networkState.value = .none })
     }
 
-    func search(for queryString: String, since sinceId: String? = nil) -> Observable<([Tweet], String)> {
+    func search(for queryString: String, since sinceId: String? = nil) -> Observable<([Tweet], String?)> {
         return makeClient()
             .flatMap { $0.searchMedia(for: queryString, since: sinceId) }
             .map { tweets, searchMetadata in
                 let notRetweeted = tweets.filter { !$0.retweeted }
                 return (notRetweeted, searchMetadata.maxId)
-            }
-            .filter { tweets, _ in tweets.count > 0 }
-            .observeOn(MainScheduler.instance)
+            }.observeOn(MainScheduler.instance)
             .do(onNext: { tweets, _ in self.store(tweets) },
                 onSubscribe: { self.networkState.value = .connecting },
                 onDispose: { self.networkState.value = .none })
     }
 
-    func timeline(by screenName: String, since sinceId: String? = nil) -> Observable<([Tweet], String)> {
+    func timeline(by screenName: String, since sinceId: String? = nil) -> Observable<([Tweet], String?)> {
         return makeClient()
             .map { client in (client, client.showUser(by: screenName)) }
             .flatMap { client, user in user.flatMap { user in client.timeline(for: user.id, since: sinceId)} }
             .map { tweets in
                 let notRetweeted = tweets.filter { !$0.retweeted }
-                let maxId = tweets.map { $0.id }.max() ?? "0"
+                let maxId = tweets.map { $0.id }.max()
                 return (notRetweeted, maxId)
-            }.filter { tweets, _ in tweets.count > 0 }
-            .observeOn(MainScheduler.instance)
+            }.observeOn(MainScheduler.instance)
             .do(onNext: { tweets, _ in self.store(tweets) },
                 onSubscribe: { self.networkState.value = .connecting },
                 onDispose: { self.networkState.value = .none })
