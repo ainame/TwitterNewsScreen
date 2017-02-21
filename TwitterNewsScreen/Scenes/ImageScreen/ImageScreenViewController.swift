@@ -23,38 +23,22 @@ class ImageScreenViewController: UIViewController {
 
     let viewModel = TweetSearcherViewModel(store: TweetStore(limit: ImageScreenViewController.storeCapacity))
     let disposeBag = DisposeBag()
+    let timerPeriod = 1
 
     var launchOption: LaunchOption?
-    var query: ((String?) -> Observable<([Tweet], String)>?)?
+    var query: ((String?) -> Observable<([Tweet], String?)>?)?
     var maxId: String?
 
     var pollingInterval: Int = 10
-    var pollingTimer: Timer?
-
     var pagingInterval: Int = 5
-    var pagingTimer: Timer?
 
     var currentIndexPath: IndexPath {
-        return self.collectionView.indexPathsForVisibleItems.first!
+        return self.collectionView.indexPathsForVisibleItems.first ?? IndexPath(item: 0, section: 0)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
-
-        query = { [weak self, launchOption] maxId in
-            guard let launchOption = launchOption else { fatalError("must given launch option") }
-            switch launchOption {
-            case .keyword(let keyword, let pollingInterval, let pagingInterval):
-                self?.pollingInterval = pollingInterval
-                self?.pagingInterval = pagingInterval
-                return self?.viewModel.search(for: keyword, since: maxId)
-            case .screenName(let screenName, let pollingInterval, let pagingInterval):
-                self?.pollingInterval = pollingInterval
-                self?.pagingInterval = pagingInterval
-                return self?.viewModel.timeline(by: screenName, since: maxId)
-            }
-        }
 
         viewModel.tweetStream.asObservable()
             .bindTo(
@@ -68,10 +52,21 @@ class ImageScreenViewController: UIViewController {
             .subscribe(onNext: { [weak self] in self?.dismiss(animated: true, completion: nil)})
             .disposed(by: disposeBag)
 
-        pollingTimer = Timer.scheduledTimer(withTimeInterval: TimeInterval(pollingInterval), repeats: true) { [weak self] _ in
-            self?.pollingTweets()
+        switch launchOption! {
+        case .keyword(let keyword, let pollingInterval, let pagingInterval):
+            self.pollingInterval = pollingInterval
+            self.pagingInterval = pagingInterval
+            query = { [weak self] maxId in self?.viewModel.search(for: keyword, since: maxId) }
+        case .screenName(let screenName, let pollingInterval, let pagingInterval):
+            self.pollingInterval = pollingInterval
+            self.pagingInterval = pagingInterval
+            query = { [weak self] maxId in self?.viewModel.timeline(by: screenName, since: maxId) }
         }
-        pollingTimer?.fire()
+
+        Observable<Int>
+            .interval(RxTimeInterval(timerPeriod), scheduler: MainScheduler.instance)
+            .subscribe(onNext: dispatchTimerEvent, onError: { error in print(error) })
+            .disposed(by: disposeBag)
     }
 
     override func viewWillLayoutSubviews() {
@@ -90,36 +85,50 @@ class ImageScreenViewController: UIViewController {
         }
     }
 
-    func pagingToNext() {
-        print("page! \(self.currentIndexPath)")
+    func dispatchTimerEvent(time: Int) {
+        if time % pollingInterval == 0 && time % pagingInterval == 0 {
+            print("polling & paging")
+            pollingTweets()
+                .do(onNext: didRequest).map { _ in () }
+                .subscribe(onNext: pagingToNext, onError: { error in print(error) })
+                .disposed(by: disposeBag)
+        } else if time % pollingInterval == 0 {
+            print("polling")
+            pollingTweets()
+                .subscribe(onNext: didRequest, onError: { error in print(error) })
+                .disposed(by: disposeBag)
+        } else if time % pagingInterval == 0 {
+            print("page! \(self.currentIndexPath)")
+            pagingToNext()
+        }
+    }
 
-        let max = self.collectionView.numberOfItems(inSection: currentIndexPath.section)
-        if max > 0 && currentIndexPath.item < max - 1 {
+    func pollingTweets() -> Observable<([Tweet], String?)> {
+        return query!(maxId)!.observeOn(MainScheduler.instance)
+    }
+
+    func pagingToNext() {
+        print("pagingtonext")
+        let max = self.collectionView.numberOfItems(inSection: currentIndexPath.section) - 1
+        if max > 0 && currentIndexPath.item < max {
             let nextIndexPath = IndexPath(item: currentIndexPath.item + 1, section: currentIndexPath.section)
             self.collectionView.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true)
         }
     }
 
-    func pollingTweets() {
-        print("polling")
-
-        pagingTimer?.invalidate()
-        pagingTimer = Timer.scheduledTimer(withTimeInterval: TimeInterval(pagingInterval), repeats: true) { [weak self] _ in
-            self?.pagingToNext()
+    func didRequest(_ tweets: [Tweet], _ maxId: String?) {
+        print("didrequest")
+        let currentItem = currentIndexPath.item
+        let max = self.collectionView.numberOfItems(inSection: currentIndexPath.section) - 1
+        if tweets.isEmpty && currentItem == max {
+            let scrollback: Int = [(pollingInterval / pagingInterval), max].min()!
+            let nextIndexPath = IndexPath(item: currentIndexPath.item - scrollback,
+                                          section: currentIndexPath.section)
+            self.collectionView.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true)
         }
-        guard let query = query else { fatalError() }
-        query(maxId)!
-            .subscribe(onNext: { [weak self, currentIndexPath, pollingInterval, pagingInterval] tweets, maxId in
-                guard let strongSelf = self else { return }
-                if tweets.isEmpty {
-                    let scrollback = pollingInterval / pagingInterval
-                    let nextIndexPath = IndexPath(item: currentIndexPath.item - scrollback,
-                                                  section: currentIndexPath.section)
-                    strongSelf.collectionView.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true)
-                }
-                strongSelf.pagingTimer?.fire()
-                strongSelf.maxId = maxId
-            })
-            .disposed(by: disposeBag)
+
+        if let maxId = maxId {
+            self.maxId = maxId
+        }
     }
 }
