@@ -20,7 +20,7 @@ class ImageScreenViewController: UIViewController {
     @IBOutlet weak var closeButton: UIButton!
 
     static let storeCapacity = 500
-    
+
     let viewModel = TweetSearcherViewModel(store: TweetStore(limit: ImageScreenViewController.storeCapacity))
     let disposeBag = DisposeBag()
 
@@ -102,9 +102,14 @@ class ImageScreenViewController: UIViewController {
         }
         guard let query = query else { fatalError() }
         query(maxId)!
-            .do(onNext: { [weak self] _, maxId in
-                self?.pagingTimer?.fire()
-                self?.maxId = maxId
+            .do(onNext: { [weak self] tweets, maxId in
+                guard let strongSelf = self else { return }
+                if tweets.isEmpty {
+                    let nextIndexPath = IndexPath(item: strongSelf.currentIndexPath!.item - 3, section: strongSelf.currentIndexPath!.section)
+                    strongSelf.collectionView.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true)
+                }
+                strongSelf.pagingTimer?.fire()
+                strongSelf.maxId = maxId
             })
             .subscribe().disposed(by: disposeBag)
     }
