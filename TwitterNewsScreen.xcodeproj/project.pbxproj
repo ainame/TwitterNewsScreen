@@ -310,7 +310,7 @@
 				TargetAttributes = {
 					BD1B54EA1E57E38000283569 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PEWY8F7R64;
+						DevelopmentTeam = 2Q7H62SFG3;
 						ProvisioningStyle = Automatic;
 					};
 					BD1B54FE1E57E38000283569 = {
@@ -574,14 +574,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PEWY8F7R64;
+				DEVELOPMENT_TEAM = 2Q7H62SFG3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = TwitterNewsScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.TwitterNewsScreen;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.ainame.TwitterNewsScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -591,14 +591,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PEWY8F7R64;
+				DEVELOPMENT_TEAM = 2Q7H62SFG3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = TwitterNewsScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.TwitterNewsScreen;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.ainame.TwitterNewsScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
