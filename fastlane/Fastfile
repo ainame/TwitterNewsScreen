@@ -19,7 +19,7 @@ platform :ios do
   before_all do
     # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
 
-    carthage(platform: 'iOS')
+    # carthage(platform: 'iOS')
   end
 
   desc "Runs all the tests"
@@ -30,9 +30,15 @@ platform :ios do
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
+    cert
+    sigh
     # match(type: "appstore") # more information: https://codesigning.guide
     gym(scheme: "TwitterNewsScreen") # Build your app - more options available
-    deploygate(message: "Fastlane build #{lane_context[SharedValues::BUILD_NUMBER]}")
+    deploygate(
+      api_token: ENV['DEPLOYGATE_API_TOKEN'],
+      user: ENV['DEPLOYGATE_USER'],
+      message: "Fastlane build #{lane_context[SharedValues::BUILD_NUMBER]}"
+    )
 
     # sh "your_script.sh"
     # You can also use other beta testing services here (run `fastlane actions`)
