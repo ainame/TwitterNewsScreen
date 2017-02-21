@@ -33,7 +33,7 @@ class KeywordEditorViewController: UIViewController {
 
     func launchWithKeyword() {
         guard let keyword = keywordTextField.text, !keyword.isEmpty else {
-            showAlert(message: "空で入力しないで")
+            showAlert(message: NSLocalizedString("warnings.empty_inputs", comment: ""))
             return
         }
 
@@ -44,7 +44,7 @@ class KeywordEditorViewController: UIViewController {
 
     func launchWithScreenName() {
         guard let screenName = keywordTextField.text, !screenName.isEmpty else {
-            showAlert(message: "空で入力しないで")
+            showAlert(message: NSLocalizedString("warnings.empty_inputs", comment: ""))
             return
         }
 

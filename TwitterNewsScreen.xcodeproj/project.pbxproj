@@ -20,6 +20,7 @@
 		BD1B55291E57E9D300283569 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B55281E57E9D300283569 /* Social.framework */; };
 		BD1B552D1E57EB4500283569 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1B552C1E57EB4500283569 /* RxSwift.framework */; };
 		BD1B552F1E57EB8D00283569 /* TwitterAccountRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */; };
+		BD4BC8BC1E5CC3CB00C472B7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD4BC8BB1E5CC3CB00C472B7 /* Localizable.strings */; };
 		BD58D16D1E59E2A800E81FBB /* KeywordEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58D16C1E59E2A800E81FBB /* KeywordEditorViewController.swift */; };
 		BD58D1701E59E31800E81FBB /* KeywordEditorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD58D16F1E59E31800E81FBB /* KeywordEditorViewController.storyboard */; };
 		BD58D1721E5A03E300E81FBB /* TweetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58D1711E5A03E300E81FBB /* TweetStore.swift */; };
@@ -73,6 +74,7 @@
 		BD1B55281E57E9D300283569 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BD1B552C1E57EB4500283569 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		BD1B552E1E57EB8D00283569 /* TwitterAccountRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccountRequester.swift; sourceTree = "<group>"; };
+		BD4BC8BB1E5CC3CB00C472B7 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = SOURCE_ROOT; };
 		BD58D16C1E59E2A800E81FBB /* KeywordEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordEditorViewController.swift; sourceTree = "<group>"; };
 		BD58D16F1E59E31800E81FBB /* KeywordEditorViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeywordEditorViewController.storyboard; sourceTree = "<group>"; };
 		BD58D1711E5A03E300E81FBB /* TweetStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetStore.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				BD1B551F1E57E69600283569 /* Twitter */,
 				3183824B1E5A9E2E0012511F /* Uitls */,
 				BD1B54EE1E57E38000283569 /* AppDelegate.swift */,
+				BD4BC8BB1E5CC3CB00C472B7 /* Localizable.strings */,
 				BD1B54F51E57E38000283569 /* Assets.xcassets */,
 				BD1B54FA1E57E38000283569 /* Info.plist */,
 				BD1B54F71E57E38000283569 /* LaunchScreen.storyboard */,
@@ -352,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4BC8BC1E5CC3CB00C472B7 /* Localizable.strings in Resources */,
 				BD1B54F91E57E38000283569 /* LaunchScreen.storyboard in Resources */,
 				BD6FB1B31E595EC7001B17C9 /* ImageScreenViewController.storyboard in Resources */,
 				BD1B54F61E57E38000283569 /* Assets.xcassets in Resources */,
