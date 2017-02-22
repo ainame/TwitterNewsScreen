@@ -10,7 +10,7 @@ import Foundation
 import SwiftDate
 
 struct MediaTweetSummary {
-    let type: Tweet.MediaType
+    let type: PresentationType
     let URL: URL
     let user: User
     let text: String
@@ -22,7 +22,7 @@ struct MediaTweetSummarizer {
         if let extendedMedia = tweet.extendedMedia {
             let index = Int(arc4random() % UInt32(extendedMedia.count))
             return MediaTweetSummary(
-                type: extendedMedia[index].type,
+                type: PresentationType(rawValue: extendedMedia[index].type.rawValue)!,
                 URL: extendedMedia[index].mediaURL,
                 user: tweet.user,
                 text: tweet.text,
@@ -32,8 +32,18 @@ struct MediaTweetSummarizer {
 
         if let media = tweet.entities.media?.first {
             return MediaTweetSummary(
-                type: media.type,
+                type: PresentationType(rawValue: media.type.rawValue)!,
                 URL: media.mediaURL,
+                user: tweet.user,
+                text: tweet.text,
+                createdAt: tweet.createdAt
+            )
+        }
+
+        if let urls = tweet.entities.urls.first {
+            return MediaTweetSummary(
+                type: .ogImage,
+                URL: urls.expandedURL,
                 user: tweet.user,
                 text: tweet.text,
                 createdAt: tweet.createdAt
