@@ -24,6 +24,7 @@
 		BD58D16D1E59E2A800E81FBB /* KeywordEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58D16C1E59E2A800E81FBB /* KeywordEditorViewController.swift */; };
 		BD58D1701E59E31800E81FBB /* KeywordEditorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD58D16F1E59E31800E81FBB /* KeywordEditorViewController.storyboard */; };
 		BD58D1721E5A03E300E81FBB /* TweetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58D1711E5A03E300E81FBB /* TweetStore.swift */; };
+		BD618AA01E5DBA4900D177B3 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD618A9F1E5DBA4900D177B3 /* Kanna.framework */; };
 		BD6FB1A91E58C6C4001B17C9 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6FB1A81E58C6C4001B17C9 /* Kingfisher.framework */; };
 		BD6FB1AD1E58ED4C001B17C9 /* MediaTweetSummarizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FB1AC1E58ED4C001B17C9 /* MediaTweetSummarizer.swift */; };
 		BD6FB1B11E595E77001B17C9 /* ImageScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FB1B01E595E77001B17C9 /* ImageScreenViewController.swift */; };
@@ -78,6 +79,7 @@
 		BD58D16C1E59E2A800E81FBB /* KeywordEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordEditorViewController.swift; sourceTree = "<group>"; };
 		BD58D16F1E59E31800E81FBB /* KeywordEditorViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeywordEditorViewController.storyboard; sourceTree = "<group>"; };
 		BD58D1711E5A03E300E81FBB /* TweetStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetStore.swift; sourceTree = "<group>"; };
+		BD618A9F1E5DBA4900D177B3 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kanna.framework; path = Carthage/Build/iOS/Kanna.framework; sourceTree = "<group>"; };
 		BD6FB1A81E58C6C4001B17C9 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		BD6FB1AC1E58ED4C001B17C9 /* MediaTweetSummarizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTweetSummarizer.swift; sourceTree = "<group>"; };
 		BD6FB1B01E595E77001B17C9 /* ImageScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScreenViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD618AA01E5DBA4900D177B3 /* Kanna.framework in Frameworks */,
 				3183824A1E5A9DFA0012511F /* SwiftDate.framework in Frameworks */,
 				BD6FB1A91E58C6C4001B17C9 /* Kingfisher.framework in Frameworks */,
 				BD75B17B1E57F69A0064D8A6 /* RxCocoa.framework in Frameworks */,
@@ -202,6 +205,7 @@
 		BD1B55221E57E8A500283569 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD618A9F1E5DBA4900D177B3 /* Kanna.framework */,
 				318382491E5A9DFA0012511F /* SwiftDate.framework */,
 				BD6FB1A81E58C6C4001B17C9 /* Kingfisher.framework */,
 				BD75B17A1E57F69A0064D8A6 /* RxCocoa.framework */,
@@ -392,6 +396,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Mapper.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kanna.framework",
 			);
 			outputPaths = (
 			);
