@@ -38,6 +38,7 @@ class ImageScreenCell: UICollectionViewCell {
         nameLabel.text = "\(summary.user.name)(@\(summary.user.screenName)) - \(formattedDate)"
         textLabel.text = summary.text
         profileImageView.kf.setImage(with: summary.user.profileImageUrl)
+        imageView.kf.setImage(with: nil)
 
         displayMedia(summary: summary)
     }
@@ -50,9 +51,11 @@ class ImageScreenCell: UICollectionViewCell {
             DispatchQueue.global().async {  [weak self] in
                 let html = Kanna.HTML(url: summary.URL, encoding: .utf8)
                 let urlString = html?.head?.xpath("meta").filter { $0["property"]?.hasPrefix("og:image") ?? false }.first?["content"]
-                if let urlString = urlString {
-                    DispatchQueue.main.async {
+                DispatchQueue.main.async {
+                    if let urlString = urlString {
                         self?.imageView.kf.setImage(with: URL(string: urlString))
+                    } else {
+                        self?.imageView.kf.setImage(with: URL(string: MediaTweetSummarizer.noImageAvailable))
                     }
                 }
             }
