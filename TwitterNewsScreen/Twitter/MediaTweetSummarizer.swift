@@ -19,7 +19,7 @@ struct MediaTweetSummary {
 
 struct MediaTweetSummarizer {
     static let noImageAvailable = "https://placeholdit.imgix.net/~text?txtsize=33&txt=No+Image+Available&w=350&h=150"
-    
+
     static func summary(_ tweet: Tweet) -> MediaTweetSummary {
         if let extendedMedia = tweet.extendedMedia {
             let index = Int(arc4random() % UInt32(extendedMedia.count))

@@ -87,13 +87,18 @@ class ImageScreenViewController: UIViewController {
     }
 
     func dispatchTimerEvent(time: Int) {
+        print("time: \(time)")
         if time % pollingInterval == 0 && time % pagingInterval == 0 {
             print("polling & paging")
             pollingTweets()
                 .do(onNext: { [weak self] tweets, maxId in self?.didRequest(tweets, maxId) })
-                .map { _ in () }
-                .subscribe(onNext: { [weak self] in self?.pagingToNext() },
+                .filter { _, _ in time != 0 } // ignore initial event
+                .subscribe(onNext: { [weak self] _ in
+                    print("bbb")
+                    self?.pagingToNext()
+                    },
                            onError: { error in print(error) })
+
                 .disposed(by: disposeBag)
         } else if time % pollingInterval == 0 {
             print("polling")
