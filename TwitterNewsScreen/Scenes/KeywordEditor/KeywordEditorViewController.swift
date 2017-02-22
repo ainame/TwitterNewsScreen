@@ -15,26 +15,18 @@ class KeywordEditorViewController: UIViewController {
     @IBOutlet weak var keywordLaunchButton: UIButton!
     @IBOutlet weak var screenNameLaunchButton: UIButton!
     @IBOutlet weak var recommended1: UIButton!
+    @IBOutlet weak var recommended2: UIButton!
+    @IBOutlet weak var recommended3: UIButton!
 
     private let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        keywordLaunchButton.rx.tap
-            .asObservable()
-            .subscribe(onNext: launchWithKeyword)
-            .disposed(by: disposeBag)
-
-        screenNameLaunchButton.rx.tap
-            .asObservable()
-            .subscribe(onNext: launchWithScreenName)
-            .disposed(by: disposeBag)
-
-        recommended1.rx.tap
-            .asObservable()
-            .subscribe(onNext: launch(screenName: "mainichiphoto"))
-            .disposed(by: disposeBag)
+        keywordLaunchButton.rx.tap.asObservable().subscribe(onNext: launchWithKeyword).disposed(by: disposeBag)
+        screenNameLaunchButton.rx.tap.asObservable().subscribe(onNext: launchWithScreenName).disposed(by: disposeBag)
+        recommended1.rx.tap.asObservable().subscribe(onNext: launch(screenName: "mainichiphoto")).disposed(by: disposeBag)
+        recommended2.rx.tap.asObservable().subscribe(onNext: launch(screenName: "nytimes")).disposed(by: disposeBag)
+        recommended3.rx.tap.asObservable().subscribe(onNext: launch(screenName: "Forbes")).disposed(by: disposeBag)
     }
 
     func launchWithKeyword() {

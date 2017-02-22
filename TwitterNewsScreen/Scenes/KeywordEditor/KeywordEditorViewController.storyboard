@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uOb-gF-rHL">
-                                <rect key="frame" x="36" y="40" width="303" height="211"/>
+                                <rect key="frame" x="36" y="40" width="303" height="291"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter検索スクリーンセーバー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmF-af-vLP">
                                         <rect key="frame" x="30" y="0.0" width="243.5" height="20.5"/>
@@ -55,6 +55,14 @@
                                         <rect key="frame" x="35.5" y="181" width="232" height="30"/>
                                         <state key="normal" title="毎日新聞写真部 (@mainichiphoto)"/>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yv-FG-ZjV">
+                                        <rect key="frame" x="40" y="221" width="223" height="30"/>
+                                        <state key="normal" title="The New York Times (@nytimes)"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-co-5M5">
+                                        <rect key="frame" x="90" y="261" width="123" height="30"/>
+                                        <state key="normal" title="Forbes (@Forbes)"/>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -69,6 +77,8 @@
                         <outlet property="keywordLaunchButton" destination="mCh-Wv-RBm" id="mCy-h6-K70"/>
                         <outlet property="keywordTextField" destination="MFR-Zk-KDn" id="ODv-le-PJL"/>
                         <outlet property="recommended1" destination="ksj-KL-rTA" id="RXe-nT-sdC"/>
+                        <outlet property="recommended2" destination="3Yv-FG-ZjV" id="04W-CW-3Rx"/>
+                        <outlet property="recommended3" destination="fY0-co-5M5" id="tiN-3z-RFP"/>
                         <outlet property="screenNameLaunchButton" destination="UsM-gH-Uvd" id="tct-dX-fhn"/>
                     </connections>
                 </viewController>
