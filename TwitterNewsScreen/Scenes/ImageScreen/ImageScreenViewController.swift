@@ -40,18 +40,6 @@ class ImageScreenViewController: UIViewController {
         super.viewDidLoad()
         setupLayout()
 
-        viewModel.tweetStream.asObservable()
-            .bindTo(
-                collectionView.rx.items(cellIdentifier: ImageScreenCell.identifier, cellType: ImageScreenCell.self)
-            ) { (_, element, cell) in
-                let summary = MediaTweetSummarizer.summary(element)
-                cell.render(for: summary)
-            }.disposed(by: disposeBag)
-
-        closeButton.rx.tap.asObservable()
-            .subscribe(onNext: { [weak self] in self?.dismiss(animated: true, completion: nil)})
-            .disposed(by: disposeBag)
-
         switch launchOption! {
         case .keyword(let keyword, let pollingInterval, let pagingInterval):
             self.pollingInterval = pollingInterval
@@ -62,6 +50,17 @@ class ImageScreenViewController: UIViewController {
             self.pagingInterval = pagingInterval
             query = { [weak self] maxId in self?.viewModel.timeline(by: screenName, since: maxId) }
         }
+
+        viewModel.tweetStream.bindTo(
+            collectionView.rx.items(cellIdentifier: ImageScreenCell.identifier, cellType: ImageScreenCell.self)
+        ) { (_, element, cell) in
+                let summary = MediaTweetSummarizer.summary(element)
+                cell.render(for: summary)
+            }.disposed(by: disposeBag)
+
+        closeButton.rx.tap.asObservable()
+            .subscribe(onNext: { [weak self] in self?.dismiss(animated: true, completion: nil)})
+            .disposed(by: disposeBag)
 
         Observable<Int>
             .interval(RxTimeInterval(timerPeriod), scheduler: MainScheduler.instance)
@@ -93,12 +92,8 @@ class ImageScreenViewController: UIViewController {
             pollingTweets()
                 .do(onNext: { [weak self] tweets, maxId in self?.didRequest(tweets, maxId) })
                 .filter { _, _ in time != 0 } // ignore initial event
-                .subscribe(onNext: { [weak self] _ in
-                    print("bbb")
-                    self?.pagingToNext()
-                    },
+                .subscribe(onNext: { [weak self] _ in self?.pagingToNext() },
                            onError: { error in print(error) })
-
                 .disposed(by: disposeBag)
         } else if time % pollingInterval == 0 {
             print("polling")
