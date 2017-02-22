@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import PKHUD
 
 class ImageScreenViewController: UIViewController {
     enum LaunchOption {
@@ -50,6 +51,16 @@ class ImageScreenViewController: UIViewController {
             self.pagingInterval = pagingInterval
             query = { [weak self] maxId in self?.viewModel.timeline(by: screenName, since: maxId) }
         }
+
+        viewModel.networkState.subscribe(onNext: { state in
+            switch state {
+            case .none:
+                PKHUD.sharedHUD.hide(true)
+            case .connecting:
+                PKHUD.sharedHUD.contentView = PKHUDProgressView()
+                PKHUD.sharedHUD.show()
+            }
+        }).disposed(by: disposeBag)
 
         viewModel.tweetStream.bindTo(
             collectionView.rx.items(cellIdentifier: ImageScreenCell.identifier, cellType: ImageScreenCell.self)
