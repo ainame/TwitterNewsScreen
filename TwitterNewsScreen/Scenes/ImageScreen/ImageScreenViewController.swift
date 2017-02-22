@@ -65,7 +65,8 @@ class ImageScreenViewController: UIViewController {
 
         Observable<Int>
             .interval(RxTimeInterval(timerPeriod), scheduler: MainScheduler.instance)
-            .subscribe(onNext: dispatchTimerEvent, onError: { error in print(error) })
+            .subscribe(onNext: { [weak self] time in self?.dispatchTimerEvent(time: time) },
+                       onError: { error in print(error) })
             .disposed(by: disposeBag)
     }
 
@@ -89,13 +90,16 @@ class ImageScreenViewController: UIViewController {
         if time % pollingInterval == 0 && time % pagingInterval == 0 {
             print("polling & paging")
             pollingTweets()
-                .do(onNext: didRequest).map { _ in () }
-                .subscribe(onNext: pagingToNext, onError: { error in print(error) })
+                .do(onNext: { [weak self] tweets, maxId in self?.didRequest(tweets, maxId) })
+                .map { _ in () }
+                .subscribe(onNext: { [weak self] in self?.pagingToNext() },
+                           onError: { error in print(error) })
                 .disposed(by: disposeBag)
         } else if time % pollingInterval == 0 {
             print("polling")
             pollingTweets()
-                .subscribe(onNext: didRequest, onError: { error in print(error) })
+                .subscribe(onNext: { [weak self] tweets, maxId in self?.didRequest(tweets, maxId) },
+                           onError: { error in print(error) })
                 .disposed(by: disposeBag)
         } else if time % pagingInterval == 0 {
             print("page! \(self.currentIndexPath)")
